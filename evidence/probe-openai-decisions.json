@@ -1,0 +1,197 @@
+{
+ "t": "2026-11-14T14:24:42.281750Z",
+ "provider": "openai",
+ "api": "decisions",
+ "url": "https://api.openai.com/v1/decisions",
+ "request": {
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "auth": "[REDACTED]"
+  },
+  "body": {
+   "model": "gpt-6-luna",
+   "input": "The blue mug I ordered on Monday arrived cracked on Wednesday.",
+   "questions": [
+    {
+     "type": "predicate",
+     "name": "is_damaged",
+     "instructions": "Did the item arrive damaged?"
+    },
+    {
+     "type": "choice",
+     "name": "queue",
+     "instructions": "Which support queue should handle this message?",
+     "choices": [
+      {
+       "value": "billing",
+       "description": "Payment, invoice, or refund questions."
+      },
+      {
+       "value": "replacements",
+       "description": "Damaged, missing, or wrong items."
+      },
+      {
+       "value": "general",
+       "description": "Product questions and account updates."
+      }
+     ]
+    },
+    {
+     "type": "score",
+     "name": "urgency",
+     "instructions": "How urgent is this message?",
+     "levels": [
+      {
+       "label": "Can wait"
+      },
+      {
+       "label": "Needs attention this week"
+      },
+      {
+       "label": "Needs attention today"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "status": 200,
+ "latency_ms": 3866.535088978708,
+ "request_ids": {
+  "x-request-id": "req_76e46845ad664f9cae38c39e8dace2f4"
+ },
+ "response_headers": {
+  "date": "Sat, 14 Nov 2026 14:24:42 GMT",
+  "content-type": "application/json",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "x-ratelimit-limit-requests": "10000",
+  "x-ratelimit-limit-tokens": "10000000",
+  "x-ratelimit-remaining-requests": "9999",
+  "x-ratelimit-remaining-tokens": "9999588",
+  "x-ratelimit-reset-requests": "6ms",
+  "x-ratelimit-reset-tokens": "2ms",
+  "vary": "origin, access-control-request-method, access-control-request-headers",
+  "access-control-allow-origin": "*",
+  "access-control-expose-headers": "x-request-id,retry-after,server-timing-total, CF-Ray",
+  "server-timing-total": "594.480",
+  "openai-processing-ms": "594",
+  "x-request-id": "req_76e46845ad664f9cae38c39e8dace2f4",
+  "x-openai-proxy-wasm": "v0.1",
+  "server": "cloudflare",
+  "cf-cache-status": "DYNAMIC",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "x-content-type-options": "nosniff",
+  "content-encoding": "gzip",
+  "alt-svc": "h3=\":443\"; ma=86400"
+ },
+ "response_body": {
+  "model": "gpt-6-luna",
+  "answers": [
+   {
+    "type": "predicate",
+    "name": "is_damaged",
+    "probability": 1.0
+   },
+   {
+    "type": "choice",
+    "name": "queue",
+    "choice": "replacements",
+    "probabilities": [
+     {
+      "value": "billing",
+      "probability": 0.0
+     },
+     {
+      "value": "replacements",
+      "probability": 1.0
+     },
+     {
+      "value": "general",
+      "probability": 0.0
+     }
+    ],
+    "confidence": 1.0
+   },
+   {
+    "type": "score",
+    "name": "urgency",
+    "score": 1.59,
+    "probabilities": [
+     {
+      "value": 0,
+      "label": "Can wait",
+      "probability": 0.02
+     },
+     {
+      "value": 1,
+      "label": "Needs attention this week",
+      "probability": 0.37
+     },
+     {
+      "value": 2,
+      "label": "Needs attention today",
+      "probability": 0.61
+     }
+    ],
+    "confidence": 0.39
+   }
+  ],
+  "usage": {
+   "input_tokens": 411,
+   "input_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0
+   },
+   "output_tokens": 0,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 411
+  }
+ },
+ "billed": {
+  "input": 411,
+  "cached": 0,
+  "cache_write": 0,
+  "output": 0,
+  "reasoning": 0
+ },
+ "cost_usd": 4.11e-05,
+ "parsed": [
+  {
+   "name": "is_damaged",
+   "type": "predicate",
+   "refusal": false,
+   "api_confidence": null,
+   "p_yes": 1.0,
+   "pred": true
+  },
+  {
+   "name": "queue",
+   "type": "choice",
+   "refusal": false,
+   "api_confidence": 1.0,
+   "probs": {
+    "billing": 0.0,
+    "replacements": 1.0,
+    "general": 0.0
+   },
+   "pred": "replacements"
+  },
+  {
+   "name": "urgency",
+   "type": "score",
+   "refusal": false,
+   "api_confidence": 0.39,
+   "probs": {
+    "0": 0.02,
+    "1": 0.37,
+    "2": 0.61
+   },
+   "expected": 1.59,
+   "pred": 2
+  }
+ ]
+}

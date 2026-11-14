@@ -1,0 +1,220 @@
+{
+ "t": "2026-11-14T14:25:08.417947Z",
+ "provider": "openai",
+ "api": "generative",
+ "url": "https://api.openai.com/v1/responses",
+ "request": {
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "auth": "[REDACTED]"
+  },
+  "body": {
+   "model": "gpt-6-luna",
+   "input": "Classify the customer message into exactly one banking customer-support intent from the list.\nReturn JSON with two fields: \"label\" (one intent from the list, copied exactly) and \"probability\" (your probability, from 0 to 1, that the label is correct).\n\nIntents:\n- billing\n- replacements\n- general\n\nCustomer message:\nThe blue mug I ordered on Monday arrived cracked on Wednesday.",
+   "reasoning": {
+    "effort": "none"
+   },
+   "store": false,
+   "max_output_tokens": 400,
+   "text": {
+    "format": {
+     "type": "json_schema",
+     "name": "intent",
+     "strict": true,
+     "schema": {
+      "type": "object",
+      "properties": {
+       "label": {
+        "type": "string",
+        "enum": [
+         "billing",
+         "replacements",
+         "general"
+        ]
+       },
+       "probability": {
+        "type": "number"
+       }
+      },
+      "required": [
+       "label",
+       "probability"
+      ],
+      "additionalProperties": false
+     }
+    }
+   }
+  }
+ },
+ "status": 200,
+ "latency_ms": 4075.998026994057,
+ "request_ids": {
+  "x-request-id": "req_c76d30a70b5c4b42bc1c85b0df36380d",
+  "openai-processing-ms": "1748"
+ },
+ "response_headers": {
+  "date": "Sat, 14 Nov 2026 14:25:08 GMT",
+  "content-type": "application/json",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cf-cache-status": "DYNAMIC",
+  "server": "cloudflare",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "x-content-type-options": "nosniff",
+  "access-control-expose-headers": "X-Request-ID, Server-Timing-Total, X-OpenAI-Inference-Capacity-Reason, CF-Ray, CF-Ray",
+  "openai-processing-ms": "1748",
+  "openai-version": "2020-10-01",
+  "x-ratelimit-limit-requests": "10000",
+  "x-ratelimit-limit-tokens": "10000000",
+  "x-ratelimit-remaining-requests": "9999",
+  "x-ratelimit-remaining-tokens": "10000000",
+  "x-ratelimit-reset-requests": "6ms",
+  "x-ratelimit-reset-tokens": "0s",
+  "x-request-id": "req_c76d30a70b5c4b42bc1c85b0df36380d",
+  "content-encoding": "gzip",
+  "alt-svc": "h3=\":443\"; ma=86400"
+ },
+ "response_body": {
+  "id": "resp_08bf037e8d70a31f016af86f4276c487d29e948914c81c6506",
+  "object": "response",
+  "created_at": 1794666306,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1794666308,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+   "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 400,
+  "max_tool_calls": null,
+  "model": "gpt-6-luna",
+  "moderation": null,
+  "output": [
+   {
+    "id": "msg_08bf037e8d70a31f016af86f43da7887d2bf4b4c3b58e719d8",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\"label\":\"replacements\",\"probability\":0.98}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "none",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "json_schema",
+    "description": null,
+    "name": "intent",
+    "schema": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "string",
+       "enum": [
+        "billing",
+        "replacements",
+        "general"
+       ]
+      },
+      "probability": {
+       "type": "number"
+      }
+     },
+     "required": [
+      "label",
+      "probability"
+     ],
+     "additionalProperties": false
+    },
+    "strict": true
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 128,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cache_write_tokens_details": {
+     "ttl_12h_tokens": 0,
+     "ttl_30m_tokens": 0
+    },
+    "cached_tokens": 0
+   },
+   "output_tokens": 20,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 148
+  },
+  "user": null,
+  "metadata": {}
+ },
+ "billed": {
+  "input": 128,
+  "cached": 0,
+  "cache_write": 0,
+  "output": 20,
+  "reasoning": 0
+ },
+ "cost_usd": 2.2800000000000002e-05,
+ "parsed": {
+  "raw_text": "{\"label\":\"replacements\",\"probability\":0.98}",
+  "parse_ok": true,
+  "refusal": false,
+  "pred": "replacements",
+  "stated_p": 0.98
+ }
+}

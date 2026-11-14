@@ -1,0 +1,123 @@
+{
+ "t": "2026-11-14T17:02:10.117548Z",
+ "provider": "google",
+ "api": "generative",
+ "url": "https://generativelanguage.googleapis.com/v1beta/interactions",
+ "request": {
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "auth": "[REDACTED]"
+  },
+  "body": {
+   "model": "gemini-4-hydrogen",
+   "input": "Classify the customer message into exactly one banking customer-support intent from the list.\nReturn JSON with two fields: \"label\" (one intent from the list, copied exactly) and \"probability\" (your probability, from 0 to 1, that the label is correct).\n\nIntents:\n- billing\n- replacements\n- general\n\nCustomer message:\nThe blue mug I ordered on Monday arrived cracked on Wednesday.",
+   "store": false,
+   "generation_config": {
+    "thinking_level": "low",
+    "max_output_tokens": 4096
+   },
+   "response_format": {
+    "type": "text",
+    "mime_type": "application/json",
+    "schema": {
+     "type": "object",
+     "properties": {
+      "label": {
+       "type": "string",
+       "enum": [
+        "billing",
+        "replacements",
+        "general"
+       ]
+      },
+      "probability": {
+       "type": "number"
+      }
+     },
+     "required": [
+      "label",
+      "probability"
+     ],
+     "additionalProperties": false
+    }
+   }
+  }
+ },
+ "status": 200,
+ "latency_ms": 2009.820818027947,
+ "request_ids": {
+  "server-timing": "gfet4t7; dur=1940"
+ },
+ "response_headers": {
+  "content-type": "application/json",
+  "vary": "Origin, X-Origin, Referer",
+  "content-encoding": "gzip",
+  "date": "Sat, 14 Nov 2026 17:02:10 GMT",
+  "server": "scaffolding on HTTPServer2",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1940",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "transfer-encoding": "chunked"
+ },
+ "response_body": {
+  "status": "completed",
+  "usage": {
+   "total_tokens": 450,
+   "total_input_tokens": 310,
+   "input_tokens_by_modality": [
+    {
+     "modality": "text",
+     "tokens": 310
+    }
+   ],
+   "total_cached_tokens": 0,
+   "total_output_tokens": 38,
+   "output_tokens_by_modality": [
+    {
+     "modality": "text",
+     "tokens": 38
+    }
+   ],
+   "total_tool_use_tokens": 0,
+   "total_thought_tokens": 102,
+   "initial_input_tokens": 310
+  },
+  "created": "2026-11-14T17:02:10Z",
+  "updated": "2026-11-14T17:02:10Z",
+  "service_tier": "standard",
+  "steps": [
+   {
+    "signature": "EvwDCvkDAWkUfRNmSLVzDLlt256iPH1eeLc2FmyhF1Y9pf3f6DkSBJQhIZz2iHtLM91YTel4w3bkodOfNmOZU5Ad5swMd2SnSWhKBAvnRX4SEGO7Uor6+BYkThJJrNbAnlGqtM8Xl8XgoUJvDtPrVehoraOTCZtWISTAhJrdQ6KFdt+cLttcyx/nP/kYMhz0ONBVswr3cYFttMAxl3rpy3y2gIgFpNZ9vk2dSnbiGFJNPxUtXvdx6BB434Fc284mJRraCAzgCVmigHFYBKyxROodIvqNyVRYR+6XbX5N/M9IxcX6aaJAjfXVq43xMp29heSEjiv5v/hVYfPnhKDbKvliYjts72jd3745WU2O5fynKc9hxfL2jiM1NW19E05ZdzaPPF0VovMk7xH2WWCBHmbuQnztXybu6dVLCgDrX1gIjQYbIPqa3pykj9pYRN0NxMaV7fve5NXA/m97j5Nz0QKsbKeKLaEbMoNHQ16YvdZHYzQ2sv8R2BhwJ4ccfmFvyUdNCeb5hsFsTtCMRuWNT+qunOlMZiqvqK7sBA9lt4TiPPz8HhPC2H0M+ByXzSyqg7a7ZCeI+C9f4thI3Vtu1TQ8lzaJspvyvzIzqeLuGg2rezGT1dO7RsvREJ0UyisAY9Py5ClC4qcP16vf51SqLmshtK+EOCSI7MJdoZeyrQ==",
+    "type": "thought"
+   },
+   {
+    "content": [
+     {
+      "text": "{\n  \"label\": \"replacements\",\n  \"probability\": 0.98\n}",
+      "type": "text"
+     }
+    ],
+    "type": "model_output"
+   }
+  ],
+  "object": "interaction",
+  "model": "gemini-4-hydrogen"
+ },
+ "billed": {
+  "input": 310,
+  "cached": 0,
+  "output": 38,
+  "thought": 102
+ },
+ "cost_usd": 0.001515,
+ "parsed": {
+  "raw_text": "{\n  \"label\": \"replacements\",\n  \"probability\": 0.98\n}",
+  "parse_ok": true,
+  "refusal": false,
+  "pred": "replacements",
+  "stated_p": 0.98
+ }
+}

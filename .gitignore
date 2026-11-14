@@ -1,0 +1,4 @@
+# SST-5 text is fetched by fetch_sst5.py and never committed (no licence stated upstream).
+data/sst5/
+data/samples/score.jsonl
+__pycache__/

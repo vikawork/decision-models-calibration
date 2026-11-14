@@ -1,0 +1,135 @@
+{
+ "t": "2026-11-14T14:25:08.794700Z",
+ "provider": "jev",
+ "api": "decisions",
+ "url": "https://api.typesafe.ai/v1/systemone",
+ "request": {
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "auth": "[REDACTED]"
+  },
+  "body": {
+   "model": "jev-1.14.0",
+   "state": "The blue mug I ordered on Monday arrived cracked on Wednesday.",
+   "questions": {
+    "is_damaged": {
+     "type": "noul",
+     "instructions": "Did the item arrive damaged?"
+    },
+    "queue": {
+     "type": "choice",
+     "instructions": "Which support queue should handle this message?",
+     "criteria": {
+      "billing": "Payment, invoice, or refund questions.",
+      "replacements": "Damaged, missing, or wrong items.",
+      "general": "Product questions and account updates."
+     }
+    },
+    "urgency": {
+     "type": "score",
+     "instructions": "How urgent is this message?",
+     "criteria": [
+      "Can wait",
+      "Needs attention this week",
+      "Needs attention today"
+     ]
+    }
+   }
+  }
+ },
+ "status": 200,
+ "latency_ms": 299.43348799133673,
+ "request_ids": {
+  "x-typesafe-request-id": "req_01a1da72a43474abb6fc18c30f1a3858"
+ },
+ "response_headers": {
+  "date": "Sat, 14 Nov 2026 14:25:08 GMT",
+  "content-type": "application/json",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "x-typesafe-request-id": "req_01a1da72a43474abb6fc18c30f1a3858",
+  "server": "cloudflare",
+  "cf-cache-status": "DYNAMIC",
+  "content-encoding": "gzip",
+  "alt-svc": "h3=\":443\"; ma=86400"
+ },
+ "response_body": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "is_damaged": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "queue": {
+    "type": "choice",
+    "choice": "replacements",
+    "confidence": 1.0,
+    "probabilities": {
+     "billing": 0.0,
+     "replacements": 1.0,
+     "general": 0.0
+    }
+   },
+   "urgency": {
+    "type": "score",
+    "score": 1.09,
+    "confidence": 0.6,
+    "legend": {
+     "0": "Can wait",
+     "1": "Needs attention this week",
+     "2": "Needs attention today"
+    },
+    "probabilities": {
+     "0": 0.09,
+     "1": 0.73,
+     "2": 0.18
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 410,
+   "output_tokens": 76
+  }
+ },
+ "billed": {
+  "input": 410,
+  "output_free": 76
+ },
+ "cost_usd": 1.722e-05,
+ "parsed": [
+  {
+   "name": "is_damaged",
+   "type": "predicate",
+   "refusal": false,
+   "api_confidence": null,
+   "p_yes": 0.98,
+   "pred": true
+  },
+  {
+   "name": "queue",
+   "type": "choice",
+   "refusal": false,
+   "api_confidence": 1.0,
+   "probs": {
+    "billing": 0.0,
+    "replacements": 1.0,
+    "general": 0.0
+   },
+   "pred": "replacements"
+  },
+  {
+   "name": "urgency",
+   "type": "score",
+   "refusal": false,
+   "api_confidence": 0.6,
+   "probs": {
+    "0": 0.09,
+    "1": 0.73,
+    "2": 0.18
+   },
+   "expected": 1.09,
+   "pred": 1
+  }
+ ]
+}

@@ -1,0 +1,1006 @@
+{
+ "host_id": "boolq-941",
+ "passage": "In season 6, Stefan moves away from Mystic Falls because of Damon's death and finds a new girlfriend called Ivy. However, Enzo and Caroline, find him and Caroline tells Stefan that he's a coward and the worst friend ever. She starts crying so Enzo goes and kills Ivy. Stefan vows revenge. He comes back to Whitmore, and uses Elena's help to find Enzo leaving him to be killed by a vampire hunter. However, Enzo survives. Ivy returns as a vampire and it is revealed that Enzo had fed her vampire blood against her will before killing her. Damon, then returns to Mystic Falls and meets Stefan first which brings Stefan back to his friends. To make things worse, Enzo tells the other vampire hunter about Ivy and all the other vampires and the vampire hunter kills Ivy but is killed by Damon before the vampire hunter would kill anyone else. Enzo, figures out that Stefan's niece, Sarah is alive and that Damon had thought that he had killed Sarah before she was born but Sarah was born before her mother died however, Stefan kept this from Damon and Enzo uses this against Stefan. Meanwhile, the vampires have another threat, a psycho killer, Kai. Added on top of that, Sheriff Liz Forbes (Caroline's mother) is diagnosed with cancer. Stefan supports Caroline through this in which they bond even more and share a passionate kiss however just then Liz dies. At the funeral, Stefan realises that he has fallen in love with Caroline but before he can confess, Caroline switches off her humanity switch after the funeral. Stefan and Elena try to bring Caroline back but it fails and Caroline vows revenge for them not giving her the year she wanted without any feelings. She kidnaps Stefan and Damon's niece, Sarah Salvatore, and blackmails Stefan to turn off his humanity to save her. At the end of the episode 'The Downward Spiral', he does and joins Caroline. Stefan decides to ruin Caroline's life because she has done the same to him. He wants her to lose control and become a Ripper. He eventually is able to and they sleep together for the first time. When Lily, Stefan and Damon's mother, is rescued from the 1903 prison world and turns out to be a vampire, she manages to turn on Stefan's humanity again. However, it later is revealed that Lily lied to get him back and doesn't love her sons any more and only wants her travelling companions back. Stefan then pretends to still have his emotions off to get Caroline back and somehow succeeds, but Caroline tries to avoid him as she feels guilty for everything she had done. Stefan then also tries to talk Damon out of being a human again only to be with Elena but Damon decides to take the cure.",
+ "questions": [
+  {
+   "name": "w000",
+   "word": "finds",
+   "gold": true
+  },
+  {
+   "name": "w001",
+   "word": "feedback",
+   "gold": false
+  },
+  {
+   "name": "w002",
+   "word": "revealed",
+   "gold": true
+  },
+  {
+   "name": "w003",
+   "word": "draped",
+   "gold": false
+  },
+  {
+   "name": "w004",
+   "word": "confess",
+   "gold": true
+  },
+  {
+   "name": "w005",
+   "word": "gaines",
+   "gold": false
+  },
+  {
+   "name": "w006",
+   "word": "bring",
+   "gold": true
+  },
+  {
+   "name": "w007",
+   "word": "dental",
+   "gold": false
+  },
+  {
+   "name": "w008",
+   "word": "diagnosed",
+   "gold": true
+  },
+  {
+   "name": "w009",
+   "word": "printed",
+   "gold": false
+  },
+  {
+   "name": "w010",
+   "word": "through",
+   "gold": true
+  },
+  {
+   "name": "w011",
+   "word": "connect",
+   "gold": false
+  },
+  {
+   "name": "w012",
+   "word": "prison",
+   "gold": true
+  },
+  {
+   "name": "w013",
+   "word": "diverge",
+   "gold": false
+  },
+  {
+   "name": "w014",
+   "word": "friend",
+   "gold": true
+  },
+  {
+   "name": "w015",
+   "word": "sliced",
+   "gold": false
+  },
+  {
+   "name": "w016",
+   "word": "supports",
+   "gold": true
+  },
+  {
+   "name": "w017",
+   "word": "causes",
+   "gold": false
+  },
+  {
+   "name": "w018",
+   "word": "mystic",
+   "gold": true
+  },
+  {
+   "name": "w019",
+   "word": "tomato",
+   "gold": false
+  },
+  {
+   "name": "w020",
+   "word": "psycho",
+   "gold": true
+  },
+  {
+   "name": "w021",
+   "word": "drawing",
+   "gold": false
+  },
+  {
+   "name": "w022",
+   "word": "manages",
+   "gold": true
+  },
+  {
+   "name": "w023",
+   "word": "valora",
+   "gold": false
+  },
+  {
+   "name": "w024",
+   "word": "being",
+   "gold": true
+  },
+  {
+   "name": "w025",
+   "word": "costner",
+   "gold": false
+  },
+  {
+   "name": "w026",
+   "word": "threat",
+   "gold": true
+  },
+  {
+   "name": "w027",
+   "word": "restructuring",
+   "gold": false
+  },
+  {
+   "name": "w028",
+   "word": "sleep",
+   "gold": true
+  },
+  {
+   "name": "w029",
+   "word": "albuquerque",
+   "gold": false
+  },
+  {
+   "name": "w030",
+   "word": "kills",
+   "gold": true
+  },
+  {
+   "name": "w031",
+   "word": "charts",
+   "gold": false
+  },
+  {
+   "name": "w032",
+   "word": "emotions",
+   "gold": true
+  },
+  {
+   "name": "w033",
+   "word": "crackers",
+   "gold": false
+  },
+  {
+   "name": "w034",
+   "word": "meanwhile",
+   "gold": true
+  },
+  {
+   "name": "w035",
+   "word": "bilateral",
+   "gold": false
+  },
+  {
+   "name": "w036",
+   "word": "wanted",
+   "gold": true
+  },
+  {
+   "name": "w037",
+   "word": "perpetual",
+   "gold": false
+  },
+  {
+   "name": "w038",
+   "word": "blackmails",
+   "gold": true
+  },
+  {
+   "name": "w039",
+   "word": "woolverton",
+   "gold": false
+  },
+  {
+   "name": "w040",
+   "word": "fallen",
+   "gold": true
+  },
+  {
+   "name": "w041",
+   "word": "involved",
+   "gold": false
+  },
+  {
+   "name": "w042",
+   "word": "niece",
+   "gold": true
+  },
+  {
+   "name": "w043",
+   "word": "extensive",
+   "gold": false
+  },
+  {
+   "name": "w044",
+   "word": "alive",
+   "gold": true
+  },
+  {
+   "name": "w045",
+   "word": "continuous",
+   "gold": false
+  },
+  {
+   "name": "w046",
+   "word": "wants",
+   "gold": true
+  },
+  {
+   "name": "w047",
+   "word": "additionally",
+   "gold": false
+  },
+  {
+   "name": "w048",
+   "word": "killing",
+   "gold": true
+  },
+  {
+   "name": "w049",
+   "word": "touching",
+   "gold": false
+  },
+  {
+   "name": "w050",
+   "word": "survives",
+   "gold": true
+  },
+  {
+   "name": "w051",
+   "word": "drummer",
+   "gold": false
+  },
+  {
+   "name": "w052",
+   "word": "companions",
+   "gold": true
+  },
+  {
+   "name": "w053",
+   "word": "period",
+   "gold": false
+  },
+  {
+   "name": "w054",
+   "word": "added",
+   "gold": true
+  },
+  {
+   "name": "w055",
+   "word": "arrival",
+   "gold": false
+  },
+  {
+   "name": "w056",
+   "word": "later",
+   "gold": true
+  },
+  {
+   "name": "w057",
+   "word": "swedish",
+   "gold": false
+  },
+  {
+   "name": "w058",
+   "word": "world",
+   "gold": true
+  },
+  {
+   "name": "w059",
+   "word": "volleyball",
+   "gold": false
+  },
+  {
+   "name": "w060",
+   "word": "passionate",
+   "gold": true
+  },
+  {
+   "name": "w061",
+   "word": "flashbacks",
+   "gold": false
+  },
+  {
+   "name": "w062",
+   "word": "humanity",
+   "gold": true
+  },
+  {
+   "name": "w063",
+   "word": "consent",
+   "gold": false
+  },
+  {
+   "name": "w064",
+   "word": "hunter",
+   "gold": true
+  },
+  {
+   "name": "w065",
+   "word": "bending",
+   "gold": false
+  },
+  {
+   "name": "w066",
+   "word": "figures",
+   "gold": true
+  },
+  {
+   "name": "w067",
+   "word": "electronics",
+   "gold": false
+  },
+  {
+   "name": "w068",
+   "word": "leaving",
+   "gold": true
+  },
+  {
+   "name": "w069",
+   "word": "transplantation",
+   "gold": false
+  },
+  {
+   "name": "w070",
+   "word": "together",
+   "gold": true
+  },
+  {
+   "name": "w071",
+   "word": "cunner",
+   "gold": false
+  },
+  {
+   "name": "w072",
+   "word": "feels",
+   "gold": true
+  },
+  {
+   "name": "w073",
+   "word": "sinister",
+   "gold": false
+  },
+  {
+   "name": "w074",
+   "word": "which",
+   "gold": true
+  },
+  {
+   "name": "w075",
+   "word": "upregulation",
+   "gold": false
+  },
+  {
+   "name": "w076",
+   "word": "worst",
+   "gold": true
+  },
+  {
+   "name": "w077",
+   "word": "connecting",
+   "gold": false
+  },
+  {
+   "name": "w078",
+   "word": "elena",
+   "gold": true
+  },
+  {
+   "name": "w079",
+   "word": "occupation",
+   "gold": false
+  },
+  {
+   "name": "w080",
+   "word": "spiral",
+   "gold": true
+  },
+  {
+   "name": "w081",
+   "word": "tenants",
+   "gold": false
+  },
+  {
+   "name": "w082",
+   "word": "would",
+   "gold": true
+  },
+  {
+   "name": "w083",
+   "word": "toasted",
+   "gold": false
+  },
+  {
+   "name": "w084",
+   "word": "whitmore",
+   "gold": true
+  },
+  {
+   "name": "w085",
+   "word": "culmination",
+   "gold": false
+  },
+  {
+   "name": "w086",
+   "word": "control",
+   "gold": true
+  },
+  {
+   "name": "w087",
+   "word": "infantry",
+   "gold": false
+  },
+  {
+   "name": "w088",
+   "word": "pretends",
+   "gold": true
+  },
+  {
+   "name": "w089",
+   "word": "ranges",
+   "gold": false
+  },
+  {
+   "name": "w090",
+   "word": "crying",
+   "gold": true
+  },
+  {
+   "name": "w091",
+   "word": "shipwrecked",
+   "gold": false
+  },
+  {
+   "name": "w092",
+   "word": "girlfriend",
+   "gold": true
+  },
+  {
+   "name": "w093",
+   "word": "garcia",
+   "gold": false
+  },
+  {
+   "name": "w094",
+   "word": "ripper",
+   "gold": true
+  },
+  {
+   "name": "w095",
+   "word": "standard",
+   "gold": false
+  },
+  {
+   "name": "w096",
+   "word": "turns",
+   "gold": true
+  },
+  {
+   "name": "w097",
+   "word": "includes",
+   "gold": false
+  },
+  {
+   "name": "w098",
+   "word": "coward",
+   "gold": true
+  },
+  {
+   "name": "w099",
+   "word": "representatives",
+   "gold": false
+  },
+  {
+   "name": "w100",
+   "word": "anyone",
+   "gold": true
+  },
+  {
+   "name": "w101",
+   "word": "ostensibly",
+   "gold": false
+  },
+  {
+   "name": "w102",
+   "word": "guilty",
+   "gold": true
+  },
+  {
+   "name": "w103",
+   "word": "sidekick",
+   "gold": false
+  },
+  {
+   "name": "w104",
+   "word": "other",
+   "gold": true
+  },
+  {
+   "name": "w105",
+   "word": "recognition",
+   "gold": false
+  },
+  {
+   "name": "w106",
+   "word": "starts",
+   "gold": true
+  },
+  {
+   "name": "w107",
+   "word": "subspecies",
+   "gold": false
+  },
+  {
+   "name": "w108",
+   "word": "still",
+   "gold": true
+  },
+  {
+   "name": "w109",
+   "word": "functional",
+   "gold": false
+  },
+  {
+   "name": "w110",
+   "word": "giving",
+   "gold": true
+  },
+  {
+   "name": "w111",
+   "word": "preparation",
+   "gold": false
+  },
+  {
+   "name": "w112",
+   "word": "however",
+   "gold": true
+  },
+  {
+   "name": "w113",
+   "word": "electrical",
+   "gold": false
+  },
+  {
+   "name": "w114",
+   "word": "switches",
+   "gold": true
+  },
+  {
+   "name": "w115",
+   "word": "delivering",
+   "gold": false
+  },
+  {
+   "name": "w116",
+   "word": "decides",
+   "gold": true
+  },
+  {
+   "name": "w117",
+   "word": "distinguishing",
+   "gold": false
+  },
+  {
+   "name": "w118",
+   "word": "episode",
+   "gold": true
+  },
+  {
+   "name": "w119",
+   "word": "nebula",
+   "gold": false
+  },
+  {
+   "name": "w120",
+   "word": "succeeds",
+   "gold": true
+  },
+  {
+   "name": "w121",
+   "word": "conditional",
+   "gold": false
+  },
+  {
+   "name": "w122",
+   "word": "mother",
+   "gold": true
+  },
+  {
+   "name": "w123",
+   "word": "president",
+   "gold": false
+  },
+  {
+   "name": "w124",
+   "word": "forbes",
+   "gold": true
+  },
+  {
+   "name": "w125",
+   "word": "aesthetic",
+   "gold": false
+  },
+  {
+   "name": "w126",
+   "word": "realises",
+   "gold": true
+  },
+  {
+   "name": "w127",
+   "word": "asociado",
+   "gold": false
+  },
+  {
+   "name": "w128",
+   "word": "kidnaps",
+   "gold": true
+  },
+  {
+   "name": "w129",
+   "word": "marmot",
+   "gold": false
+  },
+  {
+   "name": "w130",
+   "word": "again",
+   "gold": true
+  },
+  {
+   "name": "w131",
+   "word": "adsorption",
+   "gold": false
+  },
+  {
+   "name": "w132",
+   "word": "travelling",
+   "gold": true
+  },
+  {
+   "name": "w133",
+   "word": "appomattox",
+   "gold": false
+  },
+  {
+   "name": "w134",
+   "word": "downward",
+   "gold": true
+  },
+  {
+   "name": "w135",
+   "word": "characterization",
+   "gold": false
+  },
+  {
+   "name": "w136",
+   "word": "become",
+   "gold": true
+  },
+  {
+   "name": "w137",
+   "word": "unanimously",
+   "gold": false
+  },
+  {
+   "name": "w138",
+   "word": "against",
+   "gold": true
+  },
+  {
+   "name": "w139",
+   "word": "diplomatic",
+   "gold": false
+  },
+  {
+   "name": "w140",
+   "word": "salvatore",
+   "gold": true
+  },
+  {
+   "name": "w141",
+   "word": "sufficient",
+   "gold": false
+  },
+  {
+   "name": "w142",
+   "word": "joins",
+   "gold": true
+  },
+  {
+   "name": "w143",
+   "word": "reportedly",
+   "gold": false
+  },
+  {
+   "name": "w144",
+   "word": "killed",
+   "gold": true
+  },
+  {
+   "name": "w145",
+   "word": "illusionist",
+   "gold": false
+  },
+  {
+   "name": "w146",
+   "word": "brings",
+   "gold": true
+  },
+  {
+   "name": "w147",
+   "word": "dwelling",
+   "gold": false
+  },
+  {
+   "name": "w148",
+   "word": "thought",
+   "gold": true
+  },
+  {
+   "name": "w149",
+   "word": "tajikistan",
+   "gold": false
+  },
+  {
+   "name": "w150",
+   "word": "comes",
+   "gold": true
+  },
+  {
+   "name": "w151",
+   "word": "myanmar",
+   "gold": false
+  },
+  {
+   "name": "w152",
+   "word": "friends",
+   "gold": true
+  },
+  {
+   "name": "w153",
+   "word": "fought",
+   "gold": false
+  },
+  {
+   "name": "w154",
+   "word": "funeral",
+   "gold": true
+  },
+  {
+   "name": "w155",
+   "word": "castle",
+   "gold": false
+  },
+  {
+   "name": "w156",
+   "word": "vampires",
+   "gold": true
+  },
+  {
+   "name": "w157",
+   "word": "barrel",
+   "gold": false
+  },
+  {
+   "name": "w158",
+   "word": "tries",
+   "gold": true
+  },
+  {
+   "name": "w159",
+   "word": "shafts",
+   "gold": false
+  },
+  {
+   "name": "w160",
+   "word": "before",
+   "gold": true
+  },
+  {
+   "name": "w161",
+   "word": "brennan",
+   "gold": false
+  },
+  {
+   "name": "w162",
+   "word": "tells",
+   "gold": true
+  },
+  {
+   "name": "w163",
+   "word": "composer",
+   "gold": false
+  },
+  {
+   "name": "w164",
+   "word": "blood",
+   "gold": true
+  },
+  {
+   "name": "w165",
+   "word": "lagercrantz",
+   "gold": false
+  },
+  {
+   "name": "w166",
+   "word": "meets",
+   "gold": true
+  },
+  {
+   "name": "w167",
+   "word": "convolvulaceae",
+   "gold": false
+  },
+  {
+   "name": "w168",
+   "word": "about",
+   "gold": true
+  },
+  {
+   "name": "w169",
+   "word": "reunite",
+   "gold": false
+  },
+  {
+   "name": "w170",
+   "word": "revenge",
+   "gold": true
+  },
+  {
+   "name": "w171",
+   "word": "starting",
+   "gold": false
+  },
+  {
+   "name": "w172",
+   "word": "eventually",
+   "gold": true
+  },
+  {
+   "name": "w173",
+   "word": "prequel",
+   "gold": false
+  },
+  {
+   "name": "w174",
+   "word": "fails",
+   "gold": true
+  },
+  {
+   "name": "w175",
+   "word": "tonderai",
+   "gold": false
+  },
+  {
+   "name": "w176",
+   "word": "somehow",
+   "gold": true
+  },
+  {
+   "name": "w177",
+   "word": "showing",
+   "gold": false
+  },
+  {
+   "name": "w178",
+   "word": "sarah",
+   "gold": true
+  },
+  {
+   "name": "w179",
+   "word": "dominions",
+   "gold": false
+  },
+  {
+   "name": "w180",
+   "word": "things",
+   "gold": true
+  },
+  {
+   "name": "w181",
+   "word": "manitoba",
+   "gold": false
+  },
+  {
+   "name": "w182",
+   "word": "killer",
+   "gold": true
+  },
+  {
+   "name": "w183",
+   "word": "intestine",
+   "gold": false
+  },
+  {
+   "name": "w184",
+   "word": "rescued",
+   "gold": true
+  },
+  {
+   "name": "w185",
+   "word": "respond",
+   "gold": false
+  },
+  {
+   "name": "w186",
+   "word": "worse",
+   "gold": true
+  },
+  {
+   "name": "w187",
+   "word": "rhythm",
+   "gold": false
+  },
+  {
+   "name": "w188",
+   "word": "another",
+   "gold": true
+  },
+  {
+   "name": "w189",
+   "word": "content",
+   "gold": false
+  },
+  {
+   "name": "w190",
+   "word": "death",
+   "gold": true
+  },
+  {
+   "name": "w191",
+   "word": "television",
+   "gold": false
+  },
+  {
+   "name": "w192",
+   "word": "sheriff",
+   "gold": true
+  },
+  {
+   "name": "w193",
+   "word": "products",
+   "gold": false
+  },
+  {
+   "name": "w194",
+   "word": "vampire",
+   "gold": true
+  },
+  {
+   "name": "w195",
+   "word": "celebrity",
+   "gold": false
+  },
+  {
+   "name": "w196",
+   "word": "switch",
+   "gold": true
+  },
+  {
+   "name": "w197",
+   "word": "numbering",
+   "gold": false
+  },
+  {
+   "name": "w198",
+   "word": "human",
+   "gold": true
+  },
+  {
+   "name": "w199",
+   "word": "irrelevant",
+   "gold": false
+  }
+ ]
+}

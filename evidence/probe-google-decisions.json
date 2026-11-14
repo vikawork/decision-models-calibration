@@ -1,0 +1,144 @@
+{
+ "t": "2026-11-14T17:02:08.013467Z",
+ "provider": "google",
+ "api": "decisions",
+ "url": "https://generativelanguage.googleapis.com/v1beta/decisions",
+ "request": {
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "auth": "[REDACTED]"
+  },
+  "body": {
+   "model": "gemini-decision-1",
+   "input": "The blue mug I ordered on Monday arrived cracked on Wednesday.",
+   "questions": {
+    "is_damaged": {
+     "type": "noul",
+     "instructions": "Did the item arrive damaged?"
+    },
+    "queue": {
+     "type": "choice",
+     "instructions": "Which support queue should handle this message?",
+     "criteria": {
+      "billing": "Payment, invoice, or refund questions.",
+      "replacements": "Damaged, missing, or wrong items.",
+      "general": "Product questions and account updates."
+     }
+    },
+    "urgency": {
+     "type": "score",
+     "instructions": "How urgent is this message?",
+     "criteria": [
+      "Can wait",
+      "Needs attention this week",
+      "Needs attention today"
+     ]
+    }
+   }
+  }
+ },
+ "status": 200,
+ "latency_ms": 580.4194540251046,
+ "request_ids": {
+  "server-timing": "gfet4t7; dur=499"
+ },
+ "response_headers": {
+  "content-type": "application/json",
+  "vary": "Origin, X-Origin, Referer",
+  "content-encoding": "gzip",
+  "date": "Sat, 14 Nov 2026 17:02:07 GMT",
+  "server": "scaffolding on HTTPServer2",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=499",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+  "transfer-encoding": "chunked"
+ },
+ "response_body": {
+  "answers": {
+   "queue": {
+    "confidence": 0.9838489287002516,
+    "choice": "replacements",
+    "probabilities": {
+     "general": 0.006358368440704238,
+     "billing": 0.009792702859044131,
+     "replacements": 0.9838489287002516
+    },
+    "type": "choice"
+   },
+   "is_damaged": {
+    "confidence": 0.99,
+    "noul": 0.99,
+    "type": "noul"
+   },
+   "urgency": {
+    "confidence": 0.5148230336255861,
+    "score": 0.9448677482878949,
+    "probabilities": {
+     "0": 0.27015460904325944,
+     "1": 0.5148230336255861,
+     "2": 0.21502235733115435
+    },
+    "legend": {
+     "1": "Needs attention this week",
+     "2": "Needs attention today",
+     "0": "Can wait"
+    },
+    "type": "score"
+   }
+  },
+  "usage": {
+   "total_tokens": 233,
+   "total_input_tokens": 233,
+   "input_tokens_by_modality": [
+    {
+     "modality": "text",
+     "tokens": 233
+    }
+   ],
+   "total_output_tokens": 0
+  }
+ },
+ "billed": {
+  "input": 233,
+  "output": 0
+ },
+ "cost_usd": 2.33e-05,
+ "parsed": [
+  {
+   "name": "is_damaged",
+   "type": "predicate",
+   "refusal": false,
+   "api_confidence": 0.99,
+   "p_yes": 0.99,
+   "pred": true
+  },
+  {
+   "name": "queue",
+   "type": "choice",
+   "refusal": false,
+   "api_confidence": 0.9838489287002516,
+   "probs": {
+    "general": 0.006358368440704238,
+    "billing": 0.009792702859044131,
+    "replacements": 0.9838489287002516
+   },
+   "pred": "replacements"
+  },
+  {
+   "name": "urgency",
+   "type": "score",
+   "refusal": false,
+   "api_confidence": 0.5148230336255861,
+   "probs": {
+    "0": 0.27015460904325944,
+    "1": 0.5148230336255861,
+    "2": 0.21502235733115435
+   },
+   "expected": 0.9448677482878949,
+   "pred": 1
+  }
+ ]
+}

@@ -1,0 +1,2070 @@
+{
+ "models": {
+  "google/decisions": "Gemini Decision 1",
+  "google/generative": "Gemini 4 Hydrogen (low thinking)",
+  "openai/decisions": "gpt-6-luna Decisions",
+  "openai/generative": "gpt-6-luna Responses (effort none)",
+  "jev/decisions": "Jev 1.14"
+ },
+ "eval": {
+  "google/decisions/choice": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 400,
+   "refusal_items": [],
+   "accuracy": 0.8125,
+   "correct": 325,
+   "macro_f1": 0.8058,
+   "brier_full": 0.2762,
+   "brier_top": 0.1083,
+   "ece10": 0.0331,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 4,
+     "mean_stated": 0.2579,
+     "share_correct": 0.0
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 8,
+     "mean_stated": 0.3624,
+     "share_correct": 0.5
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 22,
+     "mean_stated": 0.4575,
+     "share_correct": 0.2727
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 27,
+     "mean_stated": 0.5499,
+     "share_correct": 0.4815
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 31,
+     "mean_stated": 0.6623,
+     "share_correct": 0.6774
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 28,
+     "mean_stated": 0.7458,
+     "share_correct": 0.6786
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 57,
+     "mean_stated": 0.8524,
+     "share_correct": 0.8246
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 223,
+     "mean_stated": 0.9698,
+     "share_correct": 0.9641
+    }
+   ],
+   "at90": {
+    "n": 223,
+    "share_correct": 0.9641,
+    "mean_stated": 0.9698
+   },
+   "at_certain": {
+    "n": 56,
+    "share_correct": 1.0
+   },
+   "mean_top_prob": 0.8378,
+   "exact_0_or_1": 0,
+   "api_confidence": {
+    "n": 400,
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 4,
+      "mean_stated": 0.2579,
+      "share_correct": 0.0
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 8,
+      "mean_stated": 0.3624,
+      "share_correct": 0.5
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 22,
+      "mean_stated": 0.4575,
+      "share_correct": 0.2727
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 27,
+      "mean_stated": 0.5499,
+      "share_correct": 0.4815
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 31,
+      "mean_stated": 0.6623,
+      "share_correct": 0.6774
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 28,
+      "mean_stated": 0.7458,
+      "share_correct": 0.6786
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 57,
+      "mean_stated": 0.8524,
+      "share_correct": 0.8246
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 223,
+      "mean_stated": 0.9698,
+      "share_correct": 0.9641
+     }
+    ],
+    "ece10_vs_correct": 0.0331,
+    "max_abs_diff_vs_top_prob": 0.0,
+    "max_abs_diff_vs_typesafe_formula": 0.0104
+   },
+   "latency_ms": {
+    "p50": 636.6,
+    "p95": 857.0,
+    "min": 239.6,
+    "max": 3565.3
+   },
+   "server_ms": null,
+   "input_tokens_mean": 1099.0,
+   "output_tokens_mean": 0.0,
+   "cost_total_usd": 0.043959,
+   "cost_per_1000_usd": 0.1099,
+   "retried": 6,
+   "prob_sum": {
+    "min": 1.0,
+    "max": 1.0
+   }
+  },
+  "google/decisions/predicate": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 400,
+   "refusal_items": [],
+   "accuracy": 0.865,
+   "correct": 346,
+   "macro_f1": null,
+   "brier_full": 0.0877,
+   "brier_top": 0.0877,
+   "ece10": 0.0403,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 14,
+     "mean_stated": 0.5526,
+     "share_correct": 0.2143
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 34,
+     "mean_stated": 0.6519,
+     "share_correct": 0.5294
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 19,
+     "mean_stated": 0.7495,
+     "share_correct": 0.6842
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 37,
+     "mean_stated": 0.846,
+     "share_correct": 0.7568
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 296,
+     "mean_stated": 0.9685,
+     "share_correct": 0.9595
+    }
+   ],
+   "at90": {
+    "n": 296,
+    "share_correct": 0.9595,
+    "mean_stated": 0.9685
+   },
+   "at_certain": {
+    "n": 0,
+    "share_correct": null
+   },
+   "mean_top_prob": 0.9053,
+   "exact_0_or_1": 0,
+   "api_confidence": {
+    "n": 400,
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 14,
+      "mean_stated": 0.5526,
+      "share_correct": 0.2143
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 34,
+      "mean_stated": 0.6519,
+      "share_correct": 0.5294
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 19,
+      "mean_stated": 0.7495,
+      "share_correct": 0.6842
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 37,
+      "mean_stated": 0.846,
+      "share_correct": 0.7568
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 296,
+      "mean_stated": 0.9685,
+      "share_correct": 0.9595
+     }
+    ],
+    "ece10_vs_correct": 0.0403,
+    "max_abs_diff_vs_top_prob": null,
+    "max_abs_diff_vs_typesafe_formula": null
+   },
+   "latency_ms": {
+    "p50": 475.2,
+    "p95": 643.9,
+    "min": 193.2,
+    "max": 1084.5
+   },
+   "server_ms": null,
+   "input_tokens_mean": 224.0,
+   "output_tokens_mean": 0.0,
+   "cost_total_usd": 0.00896,
+   "cost_per_1000_usd": 0.0224,
+   "retried": 1
+  },
+  "google/decisions/score": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 400,
+   "refusal_items": [],
+   "accuracy": 0.55,
+   "correct": 220,
+   "macro_f1": null,
+   "brier_full": 0.5588,
+   "brier_top": 0.2443,
+   "ece10": 0.0366,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 15,
+     "mean_stated": 0.3758,
+     "share_correct": 0.3333
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 100,
+     "mean_stated": 0.4627,
+     "share_correct": 0.51
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 198,
+     "mean_stated": 0.5511,
+     "share_correct": 0.5606
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 64,
+     "mean_stated": 0.6334,
+     "share_correct": 0.5781
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 16,
+     "mean_stated": 0.7409,
+     "share_correct": 0.5625
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 7,
+     "mean_stated": 0.8552,
+     "share_correct": 1.0
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    }
+   ],
+   "at90": {
+    "n": 0,
+    "share_correct": null,
+    "mean_stated": null
+   },
+   "at_certain": {
+    "n": 0,
+    "share_correct": null
+   },
+   "mean_top_prob": 0.5485,
+   "exact_0_or_1": 0,
+   "api_confidence": {
+    "n": 400,
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 15,
+      "mean_stated": 0.3758,
+      "share_correct": 0.3333
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 100,
+      "mean_stated": 0.4627,
+      "share_correct": 0.51
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 198,
+      "mean_stated": 0.5511,
+      "share_correct": 0.5606
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 64,
+      "mean_stated": 0.6334,
+      "share_correct": 0.5781
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 16,
+      "mean_stated": 0.7409,
+      "share_correct": 0.5625
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 7,
+      "mean_stated": 0.8552,
+      "share_correct": 1.0
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     }
+    ],
+    "ece10_vs_correct": 0.0366,
+    "max_abs_diff_vs_top_prob": 0.0,
+    "max_abs_diff_vs_typesafe_formula": 0.1667
+   },
+   "latency_ms": {
+    "p50": 452.6,
+    "p95": 529.4,
+    "min": 177.3,
+    "max": 1111.0
+   },
+   "server_ms": null,
+   "input_tokens_mean": 135.3,
+   "output_tokens_mean": 0.0,
+   "cost_total_usd": 0.005412,
+   "cost_per_1000_usd": 0.01353,
+   "retried": 0,
+   "mae_expected": 0.4968,
+   "within_one_level": 0.985,
+   "prob_sum": {
+    "min": 1.0,
+    "max": 1.0
+   }
+  },
+  "google/generative/choice": {
+   "requests": 18,
+   "ok": 18,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 18,
+   "refusal_items": [],
+   "accuracy": 0.8333,
+   "correct": 15,
+   "macro_f1": 0.7037,
+   "brier_full": null,
+   "brier_top": 0.1457,
+   "ece10": 0.1333,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 1,
+     "mean_stated": 0.85,
+     "share_correct": 0.0
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 17,
+     "mean_stated": 0.9735,
+     "share_correct": 0.8824
+    }
+   ],
+   "at90": {
+    "n": 17,
+    "share_correct": 0.8824,
+    "mean_stated": 0.9735
+   },
+   "at_certain": {
+    "n": 0,
+    "share_correct": null
+   },
+   "mean_top_prob": 0.9667,
+   "exact_0_or_1": 0,
+   "api_confidence": null,
+   "latency_ms": {
+    "p50": 15175.3,
+    "p95": 34248.4,
+    "min": 2762.8,
+    "max": 56579.0
+   },
+   "server_ms": null,
+   "input_tokens_mean": 1485.6,
+   "output_tokens_mean": 122.4,
+   "cost_total_usd": 0.05664,
+   "cost_per_1000_usd": 3.14667,
+   "retried": 3
+  },
+  "openai/decisions/choice": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 2,
+   "unparsed": 0,
+   "scored": 398,
+   "refusal_items": [
+    {
+     "id": "b77-1198",
+     "request_ids": {
+      "x-request-id": "req_9cb504cee0af4d9cb16fc321de967008",
+      "openai-processing-ms": "68",
+      "server-timing-total": "68.318"
+     }
+    },
+    {
+     "id": "b77-707",
+     "request_ids": {
+      "x-request-id": "req_4ebb4dc89a3c41e7882033c2d2321a0c",
+      "openai-processing-ms": "59",
+      "server-timing-total": "59.175"
+     }
+    }
+   ],
+   "accuracy": 0.7789,
+   "correct": 310,
+   "macro_f1": 0.7658,
+   "brier_full": 0.3445,
+   "brier_top": 0.144,
+   "ece10": 0.0926,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 2,
+     "mean_stated": 0.155,
+     "share_correct": 0.0
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 10,
+     "mean_stated": 0.272,
+     "share_correct": 0.4
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 10,
+     "mean_stated": 0.336,
+     "share_correct": 0.4
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 16,
+     "mean_stated": 0.4431,
+     "share_correct": 0.25
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 19,
+     "mean_stated": 0.5389,
+     "share_correct": 0.5789
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 17,
+     "mean_stated": 0.65,
+     "share_correct": 0.5882
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 22,
+     "mean_stated": 0.7477,
+     "share_correct": 0.6818
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 40,
+     "mean_stated": 0.8512,
+     "share_correct": 0.75
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 262,
+     "mean_stated": 0.978,
+     "share_correct": 0.8855
+    }
+   ],
+   "at90": {
+    "n": 262,
+    "share_correct": 0.8855,
+    "mean_stated": 0.978
+   },
+   "at_certain": {
+    "n": 88,
+    "share_correct": 0.9773
+   },
+   "mean_top_prob": 0.8581,
+   "exact_0_or_1": 88,
+   "api_confidence": {
+    "n": 398,
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 3,
+      "mean_stated": 0.16,
+      "share_correct": 0.3333
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 11,
+      "mean_stated": 0.2736,
+      "share_correct": 0.3636
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 9,
+      "mean_stated": 0.3411,
+      "share_correct": 0.3333
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 18,
+      "mean_stated": 0.445,
+      "share_correct": 0.3333
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 17,
+      "mean_stated": 0.5394,
+      "share_correct": 0.5882
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 16,
+      "mean_stated": 0.6519,
+      "share_correct": 0.5625
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 22,
+      "mean_stated": 0.7477,
+      "share_correct": 0.6818
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 40,
+      "mean_stated": 0.8512,
+      "share_correct": 0.75
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 262,
+      "mean_stated": 0.978,
+      "share_correct": 0.8855
+     }
+    ],
+    "ece10_vs_correct": 0.0894,
+    "max_abs_diff_vs_top_prob": 0.01,
+    "max_abs_diff_vs_typesafe_formula": 0.005
+   },
+   "latency_ms": {
+    "p50": 118.4,
+    "p95": 280.4,
+    "min": 98.7,
+    "max": 1097.0
+   },
+   "server_ms": {
+    "p50": 66.5,
+    "p95": 221.0,
+    "n": 400
+   },
+   "input_tokens_mean": 984.6,
+   "output_tokens_mean": 0.0,
+   "cost_total_usd": 0.039386,
+   "cost_per_1000_usd": 0.09846,
+   "retried": 0,
+   "prob_sum": {
+    "min": 1.0,
+    "max": 1.0
+   }
+  },
+  "openai/decisions/predicate": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 4,
+   "unparsed": 0,
+   "scored": 396,
+   "refusal_items": [
+    {
+     "id": "boolq-124",
+     "request_ids": {
+      "x-request-id": "req_28a93da44a2a49e9afe947614dbdb5f0",
+      "openai-processing-ms": "210",
+      "server-timing-total": "210.673"
+     }
+    },
+    {
+     "id": "boolq-1040",
+     "request_ids": {
+      "x-request-id": "req_103c09caebde4061a7ddb461ff3890f4",
+      "openai-processing-ms": "61",
+      "server-timing-total": "61.118"
+     }
+    },
+    {
+     "id": "boolq-2644",
+     "request_ids": {
+      "x-request-id": "req_694920172b1441488b4923b1c2e36d90",
+      "openai-processing-ms": "194",
+      "server-timing-total": "194.590"
+     }
+    },
+    {
+     "id": "boolq-998",
+     "request_ids": {
+      "x-request-id": "req_5be2be983de14c8da53fc0c9f8e82582",
+      "openai-processing-ms": "202",
+      "server-timing-total": "202.450"
+     }
+    }
+   ],
+   "accuracy": 0.8662,
+   "correct": 343,
+   "macro_f1": null,
+   "brier_full": 0.1022,
+   "brier_top": 0.1022,
+   "ece10": 0.0841,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 16,
+     "mean_stated": 0.5363,
+     "share_correct": 0.5
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 11,
+     "mean_stated": 0.6264,
+     "share_correct": 0.2727
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 13,
+     "mean_stated": 0.7377,
+     "share_correct": 0.6154
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 20,
+     "mean_stated": 0.8535,
+     "share_correct": 0.6
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 336,
+     "mean_stated": 0.9946,
+     "share_correct": 0.9286
+    }
+   ],
+   "at90": {
+    "n": 336,
+    "share_correct": 0.9286,
+    "mean_stated": 0.9946
+   },
+   "at_certain": {
+    "n": 287,
+    "share_correct": 0.9408
+   },
+   "mean_top_prob": 0.9503,
+   "exact_0_or_1": 287,
+   "api_confidence": null,
+   "latency_ms": {
+    "p50": 122.7,
+    "p95": 257.0,
+    "min": 94.9,
+    "max": 650.7
+   },
+   "server_ms": {
+    "p50": 72.0,
+    "p95": 206.0,
+    "n": 400
+   },
+   "input_tokens_mean": 285.1,
+   "output_tokens_mean": 0.0,
+   "cost_total_usd": 0.011403,
+   "cost_per_1000_usd": 0.02851,
+   "retried": 0
+  },
+  "openai/decisions/score": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 400,
+   "refusal_items": [],
+   "accuracy": 0.5375,
+   "correct": 215,
+   "macro_f1": null,
+   "brier_full": 0.6856,
+   "brier_top": 0.305,
+   "ece10": 0.2362,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 5,
+     "mean_stated": 0.346,
+     "share_correct": 0.6
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 14,
+     "mean_stated": 0.455,
+     "share_correct": 0.2143
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 53,
+     "mean_stated": 0.5419,
+     "share_correct": 0.4717
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 60,
+     "mean_stated": 0.643,
+     "share_correct": 0.45
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 69,
+     "mean_stated": 0.7484,
+     "share_correct": 0.5507
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 87,
+     "mean_stated": 0.8471,
+     "share_correct": 0.5862
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 112,
+     "mean_stated": 0.948,
+     "share_correct": 0.6071
+    }
+   ],
+   "at90": {
+    "n": 112,
+    "share_correct": 0.6071,
+    "mean_stated": 0.948
+   },
+   "at_certain": {
+    "n": 4,
+    "share_correct": 0.75
+   },
+   "mean_top_prob": 0.7673,
+   "exact_0_or_1": 4,
+   "api_confidence": {
+    "n": 400,
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 1,
+      "mean_stated": 0.07,
+      "share_correct": 1.0
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 4,
+      "mean_stated": 0.1675,
+      "share_correct": 0.5
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 3,
+      "mean_stated": 0.2467,
+      "share_correct": 0.0
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 6,
+      "mean_stated": 0.3267,
+      "share_correct": 0.1667
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 11,
+      "mean_stated": 0.4545,
+      "share_correct": 0.2727
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 30,
+      "mean_stated": 0.5577,
+      "share_correct": 0.4333
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 57,
+      "mean_stated": 0.6488,
+      "share_correct": 0.4737
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 76,
+      "mean_stated": 0.7496,
+      "share_correct": 0.5658
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 89,
+      "mean_stated": 0.8496,
+      "share_correct": 0.5506
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 123,
+      "mean_stated": 0.9482,
+      "share_correct": 0.6179
+     }
+    ],
+    "ece10_vs_correct": 0.2522,
+    "max_abs_diff_vs_top_prob": 0.29,
+    "max_abs_diff_vs_typesafe_formula": 0.005
+   },
+   "latency_ms": {
+    "p50": 116.0,
+    "p95": 252.5,
+    "min": 93.4,
+    "max": 280.6
+   },
+   "server_ms": {
+    "p50": 65.5,
+    "p95": 203.0,
+    "n": 400
+   },
+   "input_tokens_mean": 148.2,
+   "output_tokens_mean": 0.0,
+   "cost_total_usd": 0.00593,
+   "cost_per_1000_usd": 0.01482,
+   "retried": 0,
+   "mae_expected": 0.5271,
+   "within_one_level": 0.96,
+   "prob_sum": {
+    "min": 1.0,
+    "max": 1.0
+   }
+  },
+  "openai/generative/choice": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 400,
+   "refusal_items": [],
+   "accuracy": 0.815,
+   "correct": 326,
+   "macro_f1": 0.8128,
+   "brier_full": null,
+   "brier_top": 0.1386,
+   "ece10": 0.0916,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 1,
+     "mean_stated": 0.17,
+     "share_correct": 0.0
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 2,
+     "mean_stated": 0.37,
+     "share_correct": 0.5
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 6,
+     "mean_stated": 0.4333,
+     "share_correct": 0.3333
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 11,
+     "mean_stated": 0.5582,
+     "share_correct": 0.3636
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 15,
+     "mean_stated": 0.6453,
+     "share_correct": 0.6
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 24,
+     "mean_stated": 0.7508,
+     "share_correct": 0.75
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 52,
+     "mean_stated": 0.8573,
+     "share_correct": 0.7115
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 289,
+     "mean_stated": 0.9696,
+     "share_correct": 0.8824
+    }
+   ],
+   "at90": {
+    "n": 289,
+    "share_correct": 0.8824,
+    "mean_stated": 0.9696
+   },
+   "at_certain": {
+    "n": 0,
+    "share_correct": null
+   },
+   "mean_top_prob": 0.9053,
+   "exact_0_or_1": 0,
+   "api_confidence": null,
+   "latency_ms": {
+    "p50": 1187.5,
+    "p95": 1890.4,
+    "min": 859.8,
+    "max": 4275.6
+   },
+   "server_ms": {
+    "p50": 903.0,
+    "p95": 1496.9,
+    "n": 400
+   },
+   "input_tokens_mean": 974.5,
+   "output_tokens_mean": 22.1,
+   "cost_total_usd": 0.043398,
+   "cost_per_1000_usd": 0.1085,
+   "retried": 0
+  },
+  "jev/decisions/choice": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 400,
+   "refusal_items": [],
+   "accuracy": 0.81,
+   "correct": 324,
+   "macro_f1": 0.8079,
+   "brier_full": 0.2966,
+   "brier_top": 0.1205,
+   "ece10": 0.0679,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 1,
+     "mean_stated": 0.25,
+     "share_correct": 0.0
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 3,
+     "mean_stated": 0.3467,
+     "share_correct": 0.0
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 15,
+     "mean_stated": 0.456,
+     "share_correct": 0.4
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 22,
+     "mean_stated": 0.5427,
+     "share_correct": 0.4545
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 28,
+     "mean_stated": 0.6518,
+     "share_correct": 0.5714
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 28,
+     "mean_stated": 0.7379,
+     "share_correct": 0.6429
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 40,
+     "mean_stated": 0.8453,
+     "share_correct": 0.65
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 263,
+     "mean_stated": 0.9823,
+     "share_correct": 0.943
+    }
+   ],
+   "at90": {
+    "n": 263,
+    "share_correct": 0.943,
+    "mean_stated": 0.9823
+   },
+   "at_certain": {
+    "n": 129,
+    "share_correct": 0.9922
+   },
+   "mean_top_prob": 0.8779,
+   "exact_0_or_1": 129,
+   "api_confidence": {
+    "n": 400,
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 0,
+      "mean_stated": null,
+      "share_correct": null
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 1,
+      "mean_stated": 0.24,
+      "share_correct": 0.0
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 3,
+      "mean_stated": 0.3367,
+      "share_correct": 0.0
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 17,
+      "mean_stated": 0.4512,
+      "share_correct": 0.4118
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 21,
+      "mean_stated": 0.5395,
+      "share_correct": 0.4762
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 27,
+      "mean_stated": 0.6533,
+      "share_correct": 0.5556
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 28,
+      "mean_stated": 0.7379,
+      "share_correct": 0.6429
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 40,
+      "mean_stated": 0.8453,
+      "share_correct": 0.65
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 263,
+      "mean_stated": 0.9823,
+      "share_correct": 0.943
+     }
+    ],
+    "ece10_vs_correct": 0.0668,
+    "max_abs_diff_vs_top_prob": 0.01,
+    "max_abs_diff_vs_typesafe_formula": 0.005
+   },
+   "latency_ms": {
+    "p50": 262.0,
+    "p95": 304.3,
+    "min": 235.6,
+    "max": 545.2
+   },
+   "server_ms": null,
+   "input_tokens_mean": 1685.8,
+   "output_tokens_mean": 826.3,
+   "cost_total_usd": 0.028321,
+   "cost_per_1000_usd": 0.0708,
+   "retried": 0,
+   "prob_sum": {
+    "min": 1.0,
+    "max": 1.0
+   }
+  },
+  "jev/decisions/predicate": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 400,
+   "refusal_items": [],
+   "accuracy": 0.89,
+   "correct": 356,
+   "macro_f1": null,
+   "brier_full": 0.0802,
+   "brier_top": 0.0802,
+   "ece10": 0.0205,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 16,
+     "mean_stated": 0.5413,
+     "share_correct": 0.5
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 22,
+     "mean_stated": 0.6468,
+     "share_correct": 0.6818
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 25,
+     "mean_stated": 0.7472,
+     "share_correct": 0.6
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 48,
+     "mean_stated": 0.8506,
+     "share_correct": 0.8125
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 289,
+     "mean_stated": 0.9611,
+     "share_correct": 0.9654
+    }
+   ],
+   "at90": {
+    "n": 289,
+    "share_correct": 0.9654,
+    "mean_stated": 0.9611
+   },
+   "at_certain": {
+    "n": 0,
+    "share_correct": null
+   },
+   "mean_top_prob": 0.9004,
+   "exact_0_or_1": 0,
+   "api_confidence": null,
+   "latency_ms": {
+    "p50": 252.8,
+    "p95": 306.7,
+    "min": 225.3,
+    "max": 849.6
+   },
+   "server_ms": null,
+   "input_tokens_mean": 412.7,
+   "output_tokens_mean": 21.0,
+   "cost_total_usd": 0.006934,
+   "cost_per_1000_usd": 0.01733,
+   "retried": 0
+  },
+  "jev/decisions/score": {
+   "requests": 400,
+   "ok": 400,
+   "errors": {},
+   "refusals": 0,
+   "unparsed": 0,
+   "scored": 400,
+   "refusal_items": [],
+   "accuracy": 0.565,
+   "correct": 226,
+   "macro_f1": null,
+   "brier_full": 0.6213,
+   "brier_top": 0.275,
+   "ece10": 0.1845,
+   "reliability": [
+    {
+     "bin": "0.0-0.1",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.2-0.3",
+     "n": 0,
+     "mean_stated": null,
+     "share_correct": null
+    },
+    {
+     "bin": "0.3-0.4",
+     "n": 10,
+     "mean_stated": 0.364,
+     "share_correct": 0.4
+    },
+    {
+     "bin": "0.4-0.5",
+     "n": 18,
+     "mean_stated": 0.4567,
+     "share_correct": 0.5
+    },
+    {
+     "bin": "0.5-0.6",
+     "n": 60,
+     "mean_stated": 0.5528,
+     "share_correct": 0.4
+    },
+    {
+     "bin": "0.6-0.7",
+     "n": 79,
+     "mean_stated": 0.6494,
+     "share_correct": 0.5316
+    },
+    {
+     "bin": "0.7-0.8",
+     "n": 59,
+     "mean_stated": 0.7453,
+     "share_correct": 0.5593
+    },
+    {
+     "bin": "0.8-0.9",
+     "n": 79,
+     "mean_stated": 0.8461,
+     "share_correct": 0.6329
+    },
+    {
+     "bin": "0.9-1.0",
+     "n": 95,
+     "mean_stated": 0.9513,
+     "share_correct": 0.6737
+    }
+   ],
+   "at90": {
+    "n": 95,
+    "share_correct": 0.6737,
+    "mean_stated": 0.9513
+   },
+   "at_certain": {
+    "n": 10,
+    "share_correct": 0.9
+   },
+   "mean_top_prob": 0.7438,
+   "exact_0_or_1": 10,
+   "api_confidence": {
+    "n": 400,
+    "reliability": [
+     {
+      "bin": "0.0-0.1",
+      "n": 5,
+      "mean_stated": 0.022,
+      "share_correct": 0.6
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 4,
+      "mean_stated": 0.155,
+      "share_correct": 0.5
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 2,
+      "mean_stated": 0.22,
+      "share_correct": 0.5
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 3,
+      "mean_stated": 0.35,
+      "share_correct": 0.0
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 18,
+      "mean_stated": 0.45,
+      "share_correct": 0.2778
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 33,
+      "mean_stated": 0.5615,
+      "share_correct": 0.4545
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 67,
+      "mean_stated": 0.6457,
+      "share_correct": 0.5075
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 76,
+      "mean_stated": 0.7388,
+      "share_correct": 0.5526
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 84,
+      "mean_stated": 0.8486,
+      "share_correct": 0.631
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 108,
+      "mean_stated": 0.9521,
+      "share_correct": 0.6574
+     }
+    ],
+    "ece10_vs_correct": 0.2151,
+    "max_abs_diff_vs_top_prob": 0.36,
+    "max_abs_diff_vs_typesafe_formula": 0.005
+   },
+   "latency_ms": {
+    "p50": 252.5,
+    "p95": 330.6,
+    "min": 225.7,
+    "max": 724.1
+   },
+   "server_ms": null,
+   "input_tokens_mean": 338.2,
+   "output_tokens_mean": 18.0,
+   "cost_total_usd": 0.005682,
+   "cost_per_1000_usd": 0.0142,
+   "retried": 0,
+   "mae_expected": 0.5021,
+   "within_one_level": 0.9575,
+   "prob_sum": {
+    "min": 1.0,
+    "max": 1.0
+   }
+  }
+ },
+ "paired_latency": {
+  "google": {
+   "pairs": 18,
+   "median_ratio_gen_over_dec": 24.464,
+   "ratio_of_p50": 23.507,
+   "share_gen_slower": 1.0
+  },
+  "openai": {
+   "pairs": 400,
+   "median_ratio_gen_over_dec": 9.935,
+   "ratio_of_p50": 10.03,
+   "share_gen_slower": 1.0,
+   "server_ratio_of_p50": 13.579
+  }
+ },
+ "agreement": {
+  "choice": {
+   "pairs": {
+    "google~openai": {
+     "items": 398,
+     "agree": 355,
+     "share": 0.892,
+     "confident_disagreements": 0
+    },
+    "google~jev": {
+     "items": 400,
+     "agree": 368,
+     "share": 0.92,
+     "confident_disagreements": 0
+    },
+    "openai~jev": {
+     "items": 398,
+     "agree": 352,
+     "share": 0.8844,
+     "confident_disagreements": 0
+    }
+   },
+   "all": {
+    "models": [
+     "google",
+     "openai",
+     "jev"
+    ],
+    "items": 398,
+    "all_agree": 339
+   },
+   "examples": []
+  },
+  "predicate": {
+   "pairs": {
+    "google~openai": {
+     "items": 396,
+     "agree": 364,
+     "share": 0.9192,
+     "confident_disagreements": 1
+    },
+    "google~jev": {
+     "items": 400,
+     "agree": 372,
+     "share": 0.93,
+     "confident_disagreements": 0
+    },
+    "openai~jev": {
+     "items": 396,
+     "agree": 362,
+     "share": 0.9141,
+     "confident_disagreements": 1
+    }
+   },
+   "all": {
+    "models": [
+     "google",
+     "openai",
+     "jev"
+    ],
+    "items": 396,
+    "all_agree": 351
+   },
+   "examples": [
+    {
+     "id": "boolq-420",
+     "pair": "google~openai",
+     "gold": false,
+     "text": "do penalty shoot out goals count in golden boot",
+     "passage": "A shoot-out is usually considered for statistical purposes to be separate from the match which preceded it. In the case of a two-legged fixture, the two matches are still considered either as two draws or as one win and one loss; in the case of a single match, it is still considered as a draw. This contrasts with a fixture won in extra time, where the score at the end of normal time is superseded. Converted shoot-out penalties are not considered as goals scored by a player for the purposes of their individual records, or for ``golden boot'' competitions.",
+     "google": {
+      "pred": false,
+      "top_prob": 0.9886204290390932,
+      "p_yes": 0.011379570960906759
+     },
+     "openai": {
+      "pred": true,
+      "top_prob": 0.94,
+      "p_yes": 0.94
+     }
+    },
+    {
+     "id": "boolq-420",
+     "pair": "openai~jev",
+     "gold": false,
+     "text": "do penalty shoot out goals count in golden boot",
+     "passage": "A shoot-out is usually considered for statistical purposes to be separate from the match which preceded it. In the case of a two-legged fixture, the two matches are still considered either as two draws or as one win and one loss; in the case of a single match, it is still considered as a draw. This contrasts with a fixture won in extra time, where the score at the end of normal time is superseded. Converted shoot-out penalties are not considered as goals scored by a player for the purposes of their individual records, or for ``golden boot'' competitions.",
+     "openai": {
+      "pred": true,
+      "top_prob": 0.94,
+      "p_yes": 0.94
+     },
+     "jev": {
+      "pred": false,
+      "top_prob": 0.94,
+      "p_yes": 0.06
+     }
+    }
+   ]
+  },
+  "score": {
+   "pairs": {
+    "google~openai": {
+     "items": 400,
+     "agree": 307,
+     "share": 0.7675,
+     "confident_disagreements": 0
+    },
+    "google~jev": {
+     "items": 400,
+     "agree": 306,
+     "share": 0.765,
+     "confident_disagreements": 0
+    },
+    "openai~jev": {
+     "items": 400,
+     "agree": 299,
+     "share": 0.7475,
+     "confident_disagreements": 0
+    }
+   },
+   "all": {
+    "models": [
+     "google",
+     "openai",
+     "jev"
+    ],
+    "items": 400,
+    "all_agree": 258
+   },
+   "examples": []
+  }
+ },
+ "fanout": {
+  "google": {
+   "table": [
+    {
+     "n_questions": 1,
+     "repeats": 5,
+     "latency_p50_ms": 477.5,
+     "latency_min_ms": 395.0,
+     "latency_max_ms": 766.7,
+     "input_tokens_median": 645,
+     "input_tokens_min": 645,
+     "input_tokens_max": 645,
+     "cost_per_request_usd": 6.45e-05,
+     "word_check_accuracy": 1.0,
+     "server_ms_p50": null
+    },
+    {
+     "n_questions": 10,
+     "repeats": 5,
+     "latency_p50_ms": 744.9,
+     "latency_min_ms": 362.2,
+     "latency_max_ms": 1066.0,
+     "input_tokens_median": 1082,
+     "input_tokens_min": 1082,
+     "input_tokens_max": 1082,
+     "cost_per_request_usd": 0.0001082,
+     "word_check_accuracy": 1.0,
+     "server_ms_p50": null
+    },
+    {
+     "n_questions": 50,
+     "repeats": 5,
+     "latency_p50_ms": 751.1,
+     "latency_min_ms": 289.3,
+     "latency_max_ms": 821.7,
+     "input_tokens_median": 3023,
+     "input_tokens_min": 3023,
+     "input_tokens_max": 3023,
+     "cost_per_request_usd": 0.0003023,
+     "word_check_accuracy": 1.0,
+     "server_ms_p50": null
+    },
+    {
+     "n_questions": 200,
+     "repeats": 5,
+     "latency_p50_ms": 1018.9,
+     "latency_min_ms": 929.8,
+     "latency_max_ms": 1110.7,
+     "input_tokens_median": 10319,
+     "input_tokens_min": 10319,
+     "input_tokens_max": 10319,
+     "cost_per_request_usd": 0.0010319,
+     "word_check_accuracy": 0.995,
+     "server_ms_p50": null
+    }
+   ],
+   "tokens_per_extra_question": 48.61,
+   "separate_200_requests_tokens": 129000,
+   "one_200_question_request_tokens": 10319,
+   "billing_ratio_separate_over_shared": 12.501,
+   "latency_ratio_200_over_1": 2.134
+  },
+  "openai": {
+   "table": [
+    {
+     "n_questions": 1,
+     "repeats": 5,
+     "latency_p50_ms": 108.3,
+     "latency_min_ms": 100.7,
+     "latency_max_ms": 273.8,
+     "input_tokens_median": 710,
+     "input_tokens_min": 710,
+     "input_tokens_max": 710,
+     "cost_per_request_usd": 7.1e-05,
+     "word_check_accuracy": 1.0,
+     "server_ms_p50": 63.0
+    },
+    {
+     "n_questions": 10,
+     "repeats": 5,
+     "latency_p50_ms": 149.8,
+     "latency_min_ms": 125.5,
+     "latency_max_ms": 271.5,
+     "input_tokens_median": 2094,
+     "input_tokens_min": 2094,
+     "input_tokens_max": 2094,
+     "cost_per_request_usd": 0.0002094,
+     "word_check_accuracy": 1.0,
+     "server_ms_p50": 106.0
+    },
+    {
+     "n_questions": 50,
+     "repeats": 5,
+     "latency_p50_ms": 235.5,
+     "latency_min_ms": 176.6,
+     "latency_max_ms": 525.0,
+     "input_tokens_median": 8247,
+     "input_tokens_min": 8247,
+     "input_tokens_max": 8247,
+     "cost_per_request_usd": 0.0008247,
+     "word_check_accuracy": 0.94,
+     "server_ms_p50": 185.0
+    },
+    {
+     "n_questions": 200,
+     "repeats": 5,
+     "latency_p50_ms": 278.5,
+     "latency_min_ms": 267.1,
+     "latency_max_ms": 574.1,
+     "input_tokens_median": 31331,
+     "input_tokens_min": 31331,
+     "input_tokens_max": 31331,
+     "cost_per_request_usd": 0.0031331,
+     "word_check_accuracy": 0.95,
+     "server_ms_p50": 227.0
+    }
+   ],
+   "tokens_per_extra_question": 153.87,
+   "separate_200_requests_tokens": 142000,
+   "one_200_question_request_tokens": 31331,
+   "billing_ratio_separate_over_shared": 4.532,
+   "latency_ratio_200_over_1": 2.572
+  },
+  "jev": {
+   "table": [
+    {
+     "n_questions": 1,
+     "repeats": 5,
+     "latency_p50_ms": 246.2,
+     "latency_min_ms": 243.9,
+     "latency_max_ms": 298.2,
+     "input_tokens_median": 836,
+     "input_tokens_min": 836,
+     "input_tokens_max": 836,
+     "cost_per_request_usd": 3.511e-05,
+     "word_check_accuracy": 1.0,
+     "server_ms_p50": null
+    },
+    {
+     "n_questions": 10,
+     "repeats": 5,
+     "latency_p50_ms": 268.5,
+     "latency_min_ms": 237.4,
+     "latency_max_ms": 348.3,
+     "input_tokens_median": 988,
+     "input_tokens_min": 988,
+     "input_tokens_max": 988,
+     "cost_per_request_usd": 4.15e-05,
+     "word_check_accuracy": 1.0,
+     "server_ms_p50": null
+    },
+    {
+     "n_questions": 50,
+     "repeats": 5,
+     "latency_p50_ms": 266.3,
+     "latency_min_ms": 252.2,
+     "latency_max_ms": 282.4,
+     "input_tokens_median": 1673,
+     "input_tokens_min": 1673,
+     "input_tokens_max": 1673,
+     "cost_per_request_usd": 7.027e-05,
+     "word_check_accuracy": 0.94,
+     "server_ms_p50": null
+    },
+    {
+     "n_questions": 200,
+     "repeats": 5,
+     "latency_p50_ms": 297.1,
+     "latency_min_ms": 284.2,
+     "latency_max_ms": 341.4,
+     "input_tokens_median": 4253,
+     "input_tokens_min": 4253,
+     "input_tokens_max": 4253,
+     "cost_per_request_usd": 0.00017863,
+     "word_check_accuracy": 0.986,
+     "server_ms_p50": null
+    }
+   ],
+   "tokens_per_extra_question": 17.17,
+   "separate_200_requests_tokens": 167200,
+   "one_200_question_request_tokens": 4253,
+   "billing_ratio_separate_over_shared": 39.313,
+   "latency_ratio_200_over_1": 1.207
+  }
+ },
+ "spend": {
+  "google": {
+   "requests": 1254,
+   "usd": 0.125634
+  },
+  "openai": {
+   "requests": 1622,
+   "usd": 0.121372
+  },
+  "jev": {
+   "requests": 1221,
+   "usd": 0.042582
+  }
+ },
+ "probes": {
+  "probe-google-decisions": {
+   "status": 200,
+   "latency_ms": 580.4,
+   "t": "2026-11-14T17:02:08.013467Z",
+   "error": null
+  },
+  "probe-google-generative": {
+   "status": 200,
+   "latency_ms": 2009.8,
+   "t": "2026-11-14T17:02:10.117548Z",
+   "error": null
+  },
+  "probe-jev-decisions": {
+   "status": 200,
+   "latency_ms": 299.4,
+   "t": "2026-11-14T14:25:08.794700Z",
+   "error": null
+  },
+  "probe-openai-decisions": {
+   "status": 200,
+   "latency_ms": 3866.5,
+   "t": "2026-11-14T14:24:42.281750Z",
+   "error": null
+  },
+  "probe-openai-generative": {
+   "status": 200,
+   "latency_ms": 4076.0,
+   "t": "2026-11-14T14:25:08.417947Z",
+   "error": null
+  }
+ },
+ "time_range": {
+  "first": "2026-11-14T14:26:16.074129Z",
+  "last": "2026-11-14T17:52:09.166783Z"
+ }
+}

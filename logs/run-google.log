@@ -1,0 +1,78 @@
+2026-11-14T15:23:42.593649Z pair: 400 items, spent so far 0.001591
+2026-11-14T15:24:40.003249Z pair 0/400 spent 0.005285
+2026-11-14T15:26:53.043524Z HTTP 503 attempt 1; backing off 30.0s; ids={'server-timing': 'gfet4t7; dur=2819'}
+2026-11-14T15:27:34.121146Z HTTP 503 attempt 2; backing off 30.0s; ids={'server-timing': 'gfet4t7; dur=10926'}
+2026-11-14T15:28:56.313222Z HTTP 503 attempt 1; backing off 30.0s; ids={'server-timing': 'gfet4t7; dur=8674'}
+2026-11-14T15:31:12.283497Z HTTP 429 attempt 1; backing off 59327.0s; ids={'server-timing': 'gfet4t7; dur=341'}
+2026-11-14T17:02:23.685936Z pair: 400 items, spent so far 0.058743
+2026-11-14T17:02:23.686017Z pair 0/400 spent 0.058743
+2026-11-14T17:02:24.452393Z HTTP 429 attempt 1; backing off 300.0s (retry-after 53855); ids={'server-timing': 'gfet4t7; dur=703'}; body='{"error":{"message":"Rate limit exceeded for model gemini-4-hydrogen (limit: 20 requests per day on Free Tier). Please retry in 14h57m35s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:07:25.515904Z HTTP 429 attempt 2; backing off 300.0s (retry-after 53554); ids={'server-timing': 'gfet4t7; dur=342'}; body='{"error":{"message":"Rate limit exceeded for model gemini-4-hydrogen (limit: 20 requests per day on Free Tier). Please retry in 14h52m34s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:12:30.564680Z HTTP 429 attempt 1; backing off 300.0s (retry-after 53249); ids={'server-timing': 'gfet4t7; dur=415'}; body='{"error":{"message":"Rate limit exceeded for model gemini-4-hydrogen (limit: 20 requests per day on Free Tier). Please retry in 14h47m29s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:17:31.400372Z HTTP 429 attempt 2; backing off 300.0s (retry-after 52948); ids={'server-timing': 'gfet4t7; dur=339'}; body='{"error":{"message":"Rate limit exceeded for model gemini-4-hydrogen (limit: 20 requests per day on Free Tier). Please retry in 14h42m28s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:22:31.978572Z HTTP 429 attempt 3; backing off 300.0s (retry-after 52648); ids={'server-timing': 'gfet4t7; dur=306'}; body='{"error":{"message":"Rate limit exceeded for model gemini-4-hydrogen (limit: 20 requests per day on Free Tier). Please retry in 14h37m28s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:27:33.223465Z HTTP 429 attempt 4; backing off 300.0s (retry-after 52346); ids={'server-timing': 'gfet4t7; dur=355'}; body='{"error":{"message":"Rate limit exceeded for model gemini-4-hydrogen (limit: 20 requests per day on Free Tier). Please retry in 14h32m26s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:32:34.466208Z HTTP 429 attempt 5; backing off 300.0s (retry-after 52045); ids={'server-timing': 'gfet4t7; dur=531'}; body='{"error":{"message":"Rate limit exceeded for model gemini-4-hydrogen (limit: 20 requests per day on Free Tier). Please retry in 14h27m25s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:33:10.501294Z decisions choice: 381 to do, spent so far 0.061856
+2026-11-14T17:33:31.704466Z decisions choice 50/400 last 792 ms spent 0.065377
+2026-11-14T17:33:40.621489Z HTTP 429 attempt 1; backing off 19.0s (retry-after 19); ids={'server-timing': 'gfet4t7; dur=295'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 19s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:34:00.429090Z HTTP 429 attempt 2; backing off 59.0s (retry-after 59); ids={'server-timing': 'gfet4t7; dur=289'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 59s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:35:21.886706Z decisions choice 100/400 last 674 ms spent 0.070870
+2026-11-14T17:35:36.418865Z HTTP 429 attempt 1; backing off 23.0s (retry-after 23); ids={'server-timing': 'gfet4t7; dur=275'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 23s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:36:00.317729Z HTTP 429 attempt 2; backing off 59.0s (retry-after 59); ids={'server-timing': 'gfet4t7; dur=279'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 59s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:37:17.994402Z decisions choice 150/400 last 879 ms spent 0.076364
+2026-11-14T17:37:40.134796Z HTTP 429 attempt 1; backing off 19.0s (retry-after 19); ids={'server-timing': 'gfet4t7; dur=283'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 19s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:37:59.896255Z HTTP 429 attempt 2; backing off 30.0s (retry-after 30); ids={'server-timing': 'gfet4t7; dur=256'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry later or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:38:40.858535Z decisions choice 200/400 last 746 ms spent 0.081857
+2026-11-14T17:39:03.855466Z HTTP 429 attempt 1; backing off 56.0s (retry-after 56); ids={'server-timing': 'gfet4t7; dur=272'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 56s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:40:14.289622Z decisions choice 250/400 last 644 ms spent 0.087353
+2026-11-14T17:40:37.862285Z HTTP 429 attempt 1; backing off 22.0s (retry-after 22); ids={'server-timing': 'gfet4t7; dur=264'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 22s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:41:00.790617Z HTTP 429 attempt 2; backing off 59.0s (retry-after 59); ids={'server-timing': 'gfet4t7; dur=75'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 59s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:42:08.525533Z decisions choice 300/400 last 753 ms spent 0.092844
+2026-11-14T17:42:38.009028Z HTTP 429 attempt 1; backing off 22.0s (retry-after 22); ids={'server-timing': 'gfet4t7; dur=278'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 22s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:43:00.654243Z HTTP 429 attempt 2; backing off 59.0s (retry-after 59); ids={'server-timing': 'gfet4t7; dur=430'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 59s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:44:01.099890Z decisions choice 350/400 last 814 ms spent 0.098345
+2026-11-14T17:44:33.627851Z decisions choice done; spent 0.103728
+2026-11-14T17:44:33.961004Z decisions predicate: 400 to do, spent so far 0.103728
+2026-11-14T17:44:34.555836Z decisions predicate 0/400 last 585 ms spent 0.103753
+2026-11-14T17:44:55.885921Z HTTP 429 attempt 1; backing off 4.0s (retry-after 4); ids={'server-timing': 'gfet4t7; dur=70'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 4s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:45:00.634569Z HTTP 429 attempt 2; backing off 59.0s (retry-after 59); ids={'server-timing': 'gfet4t7; dur=63'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 59s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:46:00.204117Z decisions predicate 50/400 last 540 ms spent 0.104826
+2026-11-14T17:46:21.247594Z decisions predicate 100/400 last 250 ms spent 0.105944
+2026-11-14T17:46:42.915578Z decisions predicate 150/400 last 714 ms spent 0.107026
+2026-11-14T17:47:02.204677Z decisions predicate 200/400 last 517 ms spent 0.108156
+2026-11-14T17:47:24.026306Z decisions predicate 250/400 last 197 ms spent 0.109302
+2026-11-14T17:47:45.137695Z decisions predicate 300/400 last 478 ms spent 0.110471
+2026-11-14T17:48:06.309298Z decisions predicate 350/400 last 491 ms spent 0.111600
+2026-11-14T17:48:25.897526Z decisions predicate done; spent 0.112688
+2026-11-14T17:48:26.099305Z decisions score: 400 to do, spent so far 0.112688
+2026-11-14T17:48:26.838331Z decisions score 0/400 last 734 ms spent 0.112702
+2026-11-14T17:48:44.399549Z decisions score 50/400 last 203 ms spent 0.113379
+2026-11-14T17:49:03.379715Z decisions score 100/400 last 502 ms spent 0.114067
+2026-11-14T17:49:20.937756Z decisions score 150/400 last 212 ms spent 0.114738
+2026-11-14T17:49:40.640762Z decisions score 200/400 last 1111 ms spent 0.115406
+2026-11-14T17:50:00.570279Z decisions score 250/400 last 217 ms spent 0.116077
+2026-11-14T17:50:20.229613Z decisions score 300/400 last 478 ms spent 0.116753
+2026-11-14T17:50:39.752765Z decisions score 350/400 last 493 ms spent 0.117432
+2026-11-14T17:51:00.007074Z decisions score done; spent 0.118100
+2026-11-14T17:51:01.325225Z fanout n1-r0 HTTP 200 478 ms billed {'input': 645, 'output': 0}
+2026-11-14T17:51:01.688086Z fanout n10-r0 HTTP 200 362 ms billed {'input': 1082, 'output': 0}
+2026-11-14T17:51:02.518297Z fanout n50-r0 HTTP 200 822 ms billed {'input': 3023, 'output': 0}
+2026-11-14T17:51:03.463412Z fanout n200-r0 HTTP 200 930 ms billed {'input': 10319, 'output': 0}
+2026-11-14T17:51:04.253162Z fanout n10-r1 HTTP 200 788 ms billed {'input': 1082, 'output': 0}
+2026-11-14T17:51:04.543319Z fanout n50-r1 HTTP 200 289 ms billed {'input': 3023, 'output': 0}
+2026-11-14T17:51:05.612335Z fanout n200-r1 HTTP 200 1028 ms billed {'input': 10319, 'output': 0}
+2026-11-14T17:51:06.021761Z fanout n1-r1 HTTP 200 395 ms billed {'input': 645, 'output': 0}
+2026-11-14T17:51:06.489171Z fanout n50-r2 HTTP 200 467 ms billed {'input': 3023, 'output': 0}
+2026-11-14T17:51:06.830494Z HTTP 429 attempt 1; backing off 53.0s (retry-after 53); ids={'server-timing': 'gfet4t7; dur=329'}; body='{"error":{"message":"Rate limit exceeded for model gemini-decision-1 (limit: 50000 input tokens per minute on Free Tier). Please retry in 53s or upgrade your tier at https://ai.dev/rate-limit.","code":"too_many_requests"}}'
+2026-11-14T17:52:01.243102Z fanout n200-r2 HTTP 200 954 ms billed {'input': 10319, 'output': 0}
+2026-11-14T17:52:02.011046Z fanout n1-r2 HTTP 200 767 ms billed {'input': 645, 'output': 0}
+2026-11-14T17:52:03.083287Z fanout n10-r2 HTTP 200 1066 ms billed {'input': 1082, 'output': 0}
+2026-11-14T17:52:04.211133Z fanout n200-r3 HTTP 200 1111 ms billed {'input': 10319, 'output': 0}
+2026-11-14T17:52:04.681279Z fanout n1-r3 HTTP 200 469 ms billed {'input': 645, 'output': 0}
+2026-11-14T17:52:05.426812Z fanout n10-r3 HTTP 200 745 ms billed {'input': 1082, 'output': 0}
+2026-11-14T17:52:06.179264Z fanout n50-r3 HTTP 200 751 ms billed {'input': 3023, 'output': 0}
+2026-11-14T17:52:06.922180Z fanout n1-r4 HTTP 200 735 ms billed {'input': 645, 'output': 0}
+2026-11-14T17:52:07.342483Z fanout n10-r4 HTTP 200 417 ms billed {'input': 1082, 'output': 0}
+2026-11-14T17:52:08.130362Z fanout n50-r4 HTTP 200 767 ms billed {'input': 3023, 'output': 0}
+2026-11-14T17:52:09.169841Z fanout n200-r4 HTTP 200 1019 ms billed {'input': 10319, 'output': 0}

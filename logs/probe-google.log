@@ -1,0 +1,16 @@
+2026-11-14T14:24:26.091970Z decisions status=402 latency_ms=349 billed={} cost=0.00000000
+2026-11-14T14:24:56.986535Z generative status=402 latency_ms=402 billed={} cost=0.00000000
+2026-11-14T14:38:20.889860Z decisions status=402 latency_ms=267 billed={} cost=0.00000000
+2026-11-14T14:46:54.125617Z decisions status=402 latency_ms=252 billed={} cost=0.00000000
+2026-11-14T14:46:54.692439Z generative status=402 latency_ms=477 billed={} cost=0.00000000
+2026-11-14T14:52:09.742417Z decisions status=402 latency_ms=241 billed={} cost=0.00000000
+2026-11-14T14:57:10.296703Z decisions status=402 latency_ms=281 billed={} cost=0.00000000
+2026-11-14T15:02:10.656778Z decisions status=402 latency_ms=247 billed={} cost=0.00000000
+2026-11-14T15:06:39.449530Z decisions status=402 latency_ms=372 billed={} cost=0.00000000
+2026-11-14T15:07:11.186043Z decisions status=402 latency_ms=306 billed={} cost=0.00000000
+2026-11-14T15:14:13.998584Z decisions status=402 latency_ms=404 billed={} cost=0.00000000
+2026-11-14T15:17:11.779372Z decisions status=402 latency_ms=202 billed={} cost=0.00000000
+2026-11-14T15:23:12.702240Z decisions status=200 latency_ms=568 billed={'input': 233, 'output': 0} cost=0.00002330
+2026-11-14T15:23:39.054802Z generative status=200 latency_ms=26255 billed={'input': 310, 'cached': 0, 'output': 38, 'thought': 109} cost=0.00156750
+2026-11-14T17:02:08.013793Z decisions status=200 latency_ms=580 billed={'input': 233, 'output': 0} cost=0.00002330
+2026-11-14T17:02:10.117812Z generative status=200 latency_ms=2010 billed={'input': 310, 'cached': 0, 'output': 38, 'thought': 102} cost=0.00151500

@@ -1,0 +1,50 @@
+2026-11-14T14:26:15.747388Z decisions choice: 400 to do, spent so far 0.000017
+2026-11-14T14:26:16.074318Z decisions choice 0/400 last 326 ms spent 0.000088
+2026-11-14T14:26:29.238581Z decisions choice 50/400 last 250 ms spent 0.003630
+2026-11-14T14:26:42.916793Z decisions choice 100/400 last 257 ms spent 0.007169
+2026-11-14T14:26:56.138778Z decisions choice 150/400 last 254 ms spent 0.010709
+2026-11-14T14:27:09.879389Z decisions choice 200/400 last 243 ms spent 0.014248
+2026-11-14T14:27:23.429580Z decisions choice 250/400 last 269 ms spent 0.017789
+2026-11-14T14:27:36.381405Z decisions choice 300/400 last 300 ms spent 0.021327
+2026-11-14T14:27:49.565165Z decisions choice 350/400 last 252 ms spent 0.024870
+2026-11-14T14:28:02.666429Z decisions choice done; spent 0.028338
+2026-11-14T14:28:02.762728Z decisions predicate: 400 to do, spent so far 0.028338
+2026-11-14T14:28:03.076792Z decisions predicate 0/400 last 314 ms spent 0.028357
+2026-11-14T14:28:16.132148Z decisions predicate 50/400 last 243 ms spent 0.029204
+2026-11-14T14:28:29.378002Z decisions predicate 100/400 last 236 ms spent 0.030070
+2026-11-14T14:28:42.046754Z decisions predicate 150/400 last 254 ms spent 0.030921
+2026-11-14T14:28:54.626361Z decisions predicate 200/400 last 267 ms spent 0.031794
+2026-11-14T14:29:08.552652Z decisions predicate 250/400 last 277 ms spent 0.032670
+2026-11-14T14:29:21.452896Z decisions predicate 300/400 last 241 ms spent 0.033558
+2026-11-14T14:29:34.392389Z decisions predicate 350/400 last 261 ms spent 0.034427
+2026-11-14T14:29:47.541347Z decisions predicate done; spent 0.035272
+2026-11-14T14:29:47.674030Z decisions score: 400 to do, spent so far 0.035272
+2026-11-14T14:29:48.032455Z decisions score 0/400 last 358 ms spent 0.035287
+2026-11-14T14:30:01.237391Z decisions score 50/400 last 244 ms spent 0.035998
+2026-11-14T14:30:14.899237Z decisions score 100/400 last 235 ms spent 0.036712
+2026-11-14T14:30:28.471480Z decisions score 150/400 last 252 ms spent 0.037420
+2026-11-14T14:30:41.823511Z decisions score 200/400 last 259 ms spent 0.038126
+2026-11-14T14:30:55.145796Z decisions score 250/400 last 243 ms spent 0.038835
+2026-11-14T14:31:08.069248Z decisions score 300/400 last 242 ms spent 0.039545
+2026-11-14T14:31:20.837940Z decisions score 350/400 last 257 ms spent 0.040256
+2026-11-14T14:31:33.456197Z decisions score done; spent 0.040954
+2026-11-14T14:31:34.012168Z fanout n1-r0 HTTP 200 298 ms billed {'input': 836, 'output_free': 23}
+2026-11-14T14:31:34.258904Z fanout n10-r0 HTTP 200 246 ms billed {'input': 988, 'output_free': 194}
+2026-11-14T14:31:34.525851Z fanout n50-r0 HTTP 200 266 ms billed {'input': 1673, 'output_free': 954}
+2026-11-14T14:31:34.812715Z fanout n200-r0 HTTP 200 284 ms billed {'input': 4253, 'output_free': 3804}
+2026-11-14T14:31:35.082059Z fanout n10-r1 HTTP 200 269 ms billed {'input': 988, 'output_free': 194}
+2026-11-14T14:31:35.335543Z fanout n50-r1 HTTP 200 253 ms billed {'input': 1673, 'output_free': 954}
+2026-11-14T14:31:35.634145Z fanout n200-r1 HTTP 200 297 ms billed {'input': 4253, 'output_free': 3804}
+2026-11-14T14:31:35.878961Z fanout n1-r1 HTTP 200 244 ms billed {'input': 836, 'output_free': 23}
+2026-11-14T14:31:36.161964Z fanout n50-r2 HTTP 200 282 ms billed {'input': 1673, 'output_free': 954}
+2026-11-14T14:31:36.460161Z fanout n200-r2 HTTP 200 297 ms billed {'input': 4253, 'output_free': 3804}
+2026-11-14T14:31:36.723144Z fanout n1-r2 HTTP 200 262 ms billed {'input': 836, 'output_free': 23}
+2026-11-14T14:31:37.008892Z fanout n10-r2 HTTP 200 285 ms billed {'input': 988, 'output_free': 194}
+2026-11-14T14:31:37.351814Z fanout n200-r3 HTTP 200 341 ms billed {'input': 4253, 'output_free': 3804}
+2026-11-14T14:31:37.598534Z fanout n1-r3 HTTP 200 246 ms billed {'input': 836, 'output_free': 23}
+2026-11-14T14:31:37.947194Z fanout n10-r3 HTTP 200 348 ms billed {'input': 988, 'output_free': 194}
+2026-11-14T14:31:38.229954Z fanout n50-r3 HTTP 200 282 ms billed {'input': 1673, 'output_free': 954}
+2026-11-14T14:31:38.474194Z fanout n1-r4 HTTP 200 244 ms billed {'input': 836, 'output_free': 23}
+2026-11-14T14:31:38.712076Z fanout n10-r4 HTTP 200 237 ms billed {'input': 988, 'output_free': 194}
+2026-11-14T14:31:38.965026Z fanout n50-r4 HTTP 200 252 ms billed {'input': 1673, 'output_free': 954}
+2026-11-14T14:31:39.272563Z fanout n200-r4 HTTP 200 306 ms billed {'input': 4253, 'output_free': 3804}

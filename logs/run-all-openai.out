@@ -1,0 +1,59 @@
+2026-11-14T14:26:15.783634Z pair: 400 items, spent so far 0.000064
+2026-11-14T14:26:19.991589Z pair 0/400 spent 0.000270
+2026-11-14T14:26:54.942947Z pair 25/400 spent 0.005453
+2026-11-14T14:27:31.548012Z pair 50/400 spent 0.010641
+2026-11-14T14:28:03.869745Z pair 75/400 spent 0.015826
+2026-11-14T14:28:37.554176Z pair 100/400 spent 0.021003
+2026-11-14T14:29:13.381648Z pair 125/400 spent 0.026194
+2026-11-14T14:29:48.420748Z pair 150/400 spent 0.031376
+2026-11-14T14:30:27.269552Z pair 175/400 spent 0.036473
+2026-11-14T14:31:03.596366Z pair 200/400 spent 0.041655
+2026-11-14T14:31:40.779268Z pair 225/400 spent 0.046848
+2026-11-14T14:32:17.456680Z pair 250/400 spent 0.051931
+2026-11-14T14:32:51.970731Z pair 275/400 spent 0.057111
+2026-11-14T14:33:26.733805Z pair 300/400 spent 0.062299
+2026-11-14T14:34:00.836615Z pair 325/400 spent 0.067501
+2026-11-14T14:34:39.712647Z pair 350/400 spent 0.072686
+2026-11-14T14:35:17.000558Z pair 375/400 spent 0.077870
+2026-11-14T14:35:50.288277Z pair done; spent 0.082848
+2026-11-14T14:35:50.376211Z decisions predicate: 400 to do, spent so far 0.082848
+2026-11-14T14:35:50.518520Z decisions predicate 0/400 last 142 ms spent 0.082878
+2026-11-14T14:35:57.914910Z decisions predicate 50/400 last 159 ms spent 0.084264
+2026-11-14T14:36:06.151753Z decisions predicate 100/400 last 116 ms spent 0.085695
+2026-11-14T14:36:13.821718Z decisions predicate 150/400 last 164 ms spent 0.087089
+2026-11-14T14:36:20.959641Z decisions predicate 200/400 last 106 ms spent 0.088533
+2026-11-14T14:36:28.792790Z decisions predicate 250/400 last 205 ms spent 0.089972
+2026-11-14T14:36:36.383194Z decisions predicate 300/400 last 250 ms spent 0.091460
+2026-11-14T14:36:44.969734Z decisions predicate 350/400 last 231 ms spent 0.092865
+2026-11-14T14:36:52.167237Z decisions predicate done; spent 0.094251
+2026-11-14T14:36:52.258039Z decisions score: 400 to do, spent so far 0.094251
+2026-11-14T14:36:52.410528Z decisions score 0/400 last 152 ms spent 0.094267
+2026-11-14T14:36:59.764861Z decisions score 50/400 last 106 ms spent 0.095007
+2026-11-14T14:37:06.233383Z decisions score 100/400 last 101 ms spent 0.095760
+2026-11-14T14:37:14.229608Z decisions score 150/400 last 238 ms spent 0.096494
+2026-11-14T14:37:22.539652Z decisions score 200/400 last 102 ms spent 0.097227
+2026-11-14T14:37:29.734185Z decisions score 250/400 last 105 ms spent 0.097963
+2026-11-14T14:37:36.729213Z decisions score 300/400 last 104 ms spent 0.098705
+2026-11-14T14:37:43.707398Z decisions score 350/400 last 162 ms spent 0.099450
+2026-11-14T14:37:50.989886Z decisions score done; spent 0.100181
+2026-11-14T14:37:51.494005Z fanout n1-r0 HTTP 200 274 ms billed {'input': 710, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:51.619994Z fanout n10-r0 HTTP 200 125 ms billed {'input': 2094, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:51.856185Z fanout n50-r0 HTTP 200 235 ms billed {'input': 8247, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:52.125724Z fanout n200-r0 HTTP 200 267 ms billed {'input': 31331, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:52.397789Z fanout n10-r1 HTTP 200 271 ms billed {'input': 2094, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:52.592763Z fanout n50-r1 HTTP 200 194 ms billed {'input': 8247, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:52.867412Z fanout n200-r1 HTTP 200 274 ms billed {'input': 31331, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:53.006883Z fanout n1-r1 HTTP 200 139 ms billed {'input': 710, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:53.404780Z fanout n50-r2 HTTP 200 397 ms billed {'input': 8247, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:53.980251Z fanout n200-r2 HTTP 200 574 ms billed {'input': 31331, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:54.083901Z fanout n1-r2 HTTP 200 103 ms billed {'input': 710, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:54.257487Z fanout n10-r2 HTTP 200 173 ms billed {'input': 2094, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:54.537229Z fanout n200-r3 HTTP 200 278 ms billed {'input': 31331, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:54.646039Z fanout n1-r3 HTTP 200 108 ms billed {'input': 710, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:54.774650Z fanout n10-r3 HTTP 200 128 ms billed {'input': 2094, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:54.951884Z fanout n50-r3 HTTP 200 177 ms billed {'input': 8247, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:55.053060Z fanout n1-r4 HTTP 200 101 ms billed {'input': 710, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:55.203349Z fanout n10-r4 HTTP 200 150 ms billed {'input': 2094, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:55.729072Z fanout n50-r4 HTTP 200 525 ms billed {'input': 8247, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+2026-11-14T14:37:56.019820Z fanout n200-r4 HTTP 200 289 ms billed {'input': 31331, 'cached': 0, 'cache_write': 0, 'output': 0, 'reasoning': 0}
+run-all openai finished
